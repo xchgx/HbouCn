@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+		"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.xchgx.zsbwork.bean">
+	<class name="Work" table="t_work" >
+		<id name="id" column="id">
+			<generator class="native" />
+		</id>
+		 <property name="contract" not-null="true"/>
+		 <property name="comming" not-null="true"/>
+		 <property name="difficulty" not-null="true"/>
+		 <property name="time" not-null="true"/>
+		 <property name="detail" not-null="true"/>
+		 <property name="description" not-null="true"/>
+		<many-to-one name="employeeArea"  column="employeeAreaId" not-null="true" lazy="false"/>
+		<many-to-one name="employee"  column="employeeId" not-null="true" lazy="false"/>
+		<many-to-one name="school"  column="schoolId" not-null="true" lazy="false"/>
+<!-- 	private Integer id; -->
+<!-- 	private Employee employeeArea;//区域负责人 -->
+<!-- 	private Employee employee;//跑点工作人员 -->
+<!-- 	private School school; -->
+<!-- 	private String contract;	//合同 -->
+<!-- 	private String comming; -->
+<!-- 	private String difficulty; -->
+<!-- 	private String time; -->
+<!-- 	private String detail;//Details，评价评论，详细情况 -->
+<!-- 	private String description; -->
+	</class>
+</hibernate-mapping>

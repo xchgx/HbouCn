@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+.allNavigationListTagATip {
+	max-height: 200px;
+	max-width: 200px;
+	overflow: auto;
+	display: none;
+	background-color:#DFD8D8;
+	border-color: #C0DE98;
+	border-width: 1px;
+	font-size: 22px;
+	font-family:sans-serif; 
+}
+.imgOperator{
+	cursor:pointer;	
+	display: inline;
+	color:blue;
+}
+ .ui-autocomplete-loading {
+background: white url("images/ui-anim_basic_16x16.gif") right center no-repeat;
+}

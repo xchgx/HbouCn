@@ -1,0 +1,76 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta HTTP-EQUIV="pragma" CONTENT="no-cache">
+<meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
+<meta HTTP-EQUIV="expires" CONTENT="0">
+<title>湖北开放职业学院 软件工作室</title>
+<link href="<c:url value="/css/global.css" />" rel="stylesheet" />
+<link href="<c:url value="/jquery-ui-1.11.1/jquery-ui.css" />"
+	rel="stylesheet">
+<link href="<c:url value="/jquery-ui-1.11.1/jquery-ui.theme.css" />"
+	rel="stylesheet">
+<script
+	src="<c:url value="/jquery-ui-1.11.1/external/jquery/jquery.js" />"></script>
+<script src="<c:url value="/jquery-ui-1.11.1/jquery-ui.js" />"></script>
+<script src="<c:url value="/js/cgCore.js" />"></script>
+
+</head>
+<body>
+	<div id="head" class="main_global">
+		<%@include file="/head.jsp"%>
+	</div>
+	<div id="content" class="main_global">
+		<center>
+			<div style="text-align: center;">
+				<%-- 				<form action="<c:url value="/user/doLogin.do" />" method="post"> --%>
+				<form:form modelAttribute="user" commandName="user"  method="POST" action="doLogin.do">
+					<table align="center" border="0" cellpadding="3" cellspacing="0">
+						<tr>
+							<td colspan="3"><span style="font-size: 18px;"><b>管理员登录</b></span></td>
+						</tr>
+						<tr>
+							<td colspan="3"><span style="font-size: 12px; color: red;">目前没有开放注册功能，<br>登录用户仅限于内部工作人员实用。
+							</span></td>
+						</tr>
+						<tr>
+							<td align="right">用户名：</td>
+							<td>
+								<!-- 							<input type="text" name="name" --> <!-- 								block="content_index_block" class="ui-state-default"> -->
+								<form:input path="name" block="content_index_block"
+									class="ui-state-default" />
+							</td>
+							<td>${nameError }<form:form commandName="user">
+									<form:errors path="name" cssStyle="color: red"></form:errors>
+								</form:form></td>
+						</tr>
+						<tr>
+							<td align="right">密码：</td>
+							<td>
+								<!-- 							<input type="password" name="password" --> <!-- 								block="content_index_block" class="ui-state-default"> -->
+								<form:password path="password" block="content_index_block"
+									class="ui-state-default" />
+							</td>
+							<td>${passwordError }<form:form commandName="user">
+									<form:errors path="password" cssStyle="color: red"></form:errors>
+								</form:form></td>
+						</tr>
+						<tr>
+							<td colspan="3"><input type="submit" value="登录">${lockError }</td>
+						</tr>
+					</table>
+				</form:form>
+				<%-- 				</form> --%>
+			</div>
+		</center>
+	</div>
+	<div id="foot" class="main_global">
+		<%@include file="/foot.jsp"%>
+	</div>
+</body>
+</html>

@@ -1,0 +1,157 @@
+@CHARSET "UTF-8";
+/*������ʽ*/
+body {
+	margin:0;
+	padding:0;
+}
+ol, ul, li {
+	list-style:none;
+}
+/*ҳ�������ʽ*/
+body {
+	font-size: 12px;
+	width:100%;
+	height:100%;
+	background: #06C url(../images/background/background.jpg) no-repeat fixed center center;
+	font-family: Tahoma, Geneva, sans-serif;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+/*������*/
+#taskBar {
+	height: 30px;
+	width: 100%;
+	background: #FFF url(../images/taskBar/taskbuttons-panel-bg.gif) left center repeat-x;
+}
+#taskBar #taskBar_startBtn{
+	margin-left: 5px;
+	float: left;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	background: url(../images/taskBar/start.png) left center no-repeat;
+}
+.taskBar_startBtn_Hove {
+	margin-left: 5px;
+	float: left;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	background: url(../images/taskBar/start2.png) left center no-repeat;
+}
+.taskBar_startBtn_Over {
+	margin-left: 5px;
+	float: left;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	background: url(../images/taskBar/start.png) left center no-repeat;
+}
+/*����ͼ��*/
+#desktopPane {
+	width:100%;
+	height:100%;
+	margin: 0;
+	padding: 0;
+	position:absolute;
+}
+.deskIcon{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	zoom:-1;
+	position: relative;
+}
+.desktop_icon {
+	width:86px;
+	height:88px;
+	cursor:pointer;
+	margin-left:10px;
+	text-align:center;
+}
+.desktop_icon span {
+	display:block;
+}
+.desktop_icon .icon {
+	width:50px;
+	height:50px;
+	margin:5px auto;
+}
+.desktop_icon .icon img {
+	width:50px;
+	height:50px;
+}
+.desktop_icon .text_title {
+	display:inline-block;
+}
+.desktop_icon .left_cron {
+	display:inline-block;
+	width:10px;
+	height:22px;
+	position:relative;
+	background:url(../images/iconTextbg_left.png) center center no-repeat;
+	float:left;
+}
+.desktop_icon .text_cron {
+	display:inline-block;
+	width:auto;
+	height:22px;
+	line-height:22px;
+	text-align:center;
+	color:#fff;
+	background:url(../images/iconTextbg_center.png) center center repeat-x;
+	position:relative;
+	padding-left:5px;
+	padding-right:5px;
+	float:left;
+}
+.desktop_icon .right_cron {
+	display:inline-block;
+	width:10px;
+	height:22px;
+	position:relative;
+	background:url(../images/iconTextbg_right.png) center center no-repeat;
+	float:left;
+}
+.desktop_icon_over {
+	background:url(../images/icon_over.png) no-repeat center center;
+}
+/*�Ҽ��˵��п�ʼ�˵���ʽ*/
+.startBtn_title:before{
+	/*content: "Hi body";*/
+	//content: attr(startBtn_title_data_menutitle);
+	//white-space: pre; //��ֹ����
+	display: block;
+	position:absolute;
+	top:0;
+	right:0;
+	left:0;
+	background:#DDD;
+	padding:5px;
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+}
+.startBtn_title :first-child{
+	margin-top: 20px;
+}
+/*ȥ�����ڵĹرհ�ť*/
+/**ȥ��jquery ui close��ť
+.my-dialog .ui-dialog-titlebar-close{
+	content: "�ر�"
+}
+//.ui-dialog-titlebar { display : none;} 
+
+**/
+/*��������ʽ*/
+/*
+.ui-dialog .ui-dialog-titlebar-max { position: absolute; right: 1.8em; top: 50%; width: 19px; margin: -10px 0 0 0; padding: 1px; height: 18px; }
+.ui-dialog .ui-dialog-titlebar-max span { display: block; margin: 1px; }
+.ui-dialog .ui-dialog-titlebar-max:hover, .ui-dialog .ui-dialog-titlebar-max:focus { padding: 0; }
+
+.ui-dialog .ui-dialog-titlebar-min { position: absolute; right: 3.3em; top: 50%; width: 19px; margin: -10px 0 0 0; padding: 1px; height: 18px; }
+.ui-dialog .ui-dialog-titlebar-min span { display: block; margin: 1px; }
+.ui-dialog .ui-dialog-titlebar-min:hover, .ui-dialog .ui-dialog-titlebar-min:focus { padding: 0; }
+*/

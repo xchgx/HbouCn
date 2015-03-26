@@ -1,0 +1,41 @@
+@CHARSET "UTF-8";
+#taskBar_startBtn{
+	margin-left: 5px;
+	float: left;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	background: url(../images/taskBar/start.png) left center no-repeat;
+	z-index:999;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+.taskBar_startBtn_Hove {
+	margin-left: 5px;
+	float: left;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	background: url(../images/taskBar/start2.png) left center no-repeat;
+}
+.taskBar_startBtn_Over {
+	margin-left: 5px;
+	float: left;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	background: url(../images/taskBar/start.png) left center no-repeat;
+}
+#taskbar_datetime{
+	margin-left: 5px;
+	color:#FFF;
+	float: left;
+	width: 170px;
+	height: 30px;
+	cursor: pointer;
+	z-index:999;
+	position:absolute;
+	bottom:0;
+	right:0;
+}

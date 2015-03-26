@@ -1,0 +1,176 @@
+@CHARSET "UTF-8";
+
+body {
+	padding: 0px;
+	margin: 0px;
+	background-color: #F3F3F3;
+}
+
+.indexbg {
+	font: 12px "Times New Roman", sans-serif;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+/* 	background-color: #EEEEEE; */
+	height: auto;
+} 
+.top {
+	background-image: url("../img/foot_bg.jpg");
+	width: 1024px;;
+	height: 225px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.foot {
+	/*background-image: url("../img/foot_bg.jpg");*/
+	width: 1024px;;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+}
+
+.content_navigate {
+	/*background-color:#91E8F9;*/
+	width: 1024px;;
+	height: 33px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content_main {
+	width: 1024px;;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+.content1 {
+	float: left;
+	diskplay:inline;
+}
+/*Start 增加边框阴影效果 .dropshadow2 外边框 .innerbox内边框*/
+.dropshadow {
+	float: left;
+	clear: left;
+	background: url(../img/shadowAlpha.png) no-repeat bottom right
+		!important;
+	background: url(../img/shadow.gif) no-repeat bottom right;
+	margin: 10px 0 10px 10px !important;
+	margin: 10px 0 10px 5px;
+	/*width: 250px;*/
+	padding: 0px;
+	diskplay:inline;
+}
+
+.innerbox {
+	position: relative;
+	bottom: 6px;
+	right: 6px;
+	border: 0px solid #C3D8EC;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	padding: 4px;
+	margin: 0px 0px 0px 0px;
+	diskplay:inline;
+	/*height: 370px;*/
+}
+
+.cg_clas_content_r1c3_title {
+	background-image: url('../img/content_title_left.png');
+	background-repeat: no-repeat;
+	width: 80px;
+	height: 34px;
+	float: left;
+	margin-left: -4px;
+	text-align:center;
+	cursor: pointer;
+}
+
+.cg_clas_content_r1c3_title_hove {
+	background-image: url("../img/content_title_left_hove.png");
+	background-repeat: no-repeat;
+}
+
+.dropshadow2 {
+	width: 345px;
+	/* IE5 hack */
+	margin: 0px 0px -3px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+.innerbox2 {
+	height: 350px;
+	/* IE5 hack */
+	margin: 0px 0px -3px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+.dropshadow3 {
+	width: 494px;
+	/* IE5 hack */
+	margin: 0px 0px -3px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+.innerbox3 {
+	height: 250px;
+	/* IE5 hack */
+	margin: 0px 0px -3px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+.dropshadow4 {
+	width: 250px;
+	/* IE5 hack */
+	margin: 0px 0px -3px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+.innerbox4 {
+	height: 250px;
+	/* IE5 hack */
+	margin: 0px 0px -3px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+.dropshadow5 {
+	width: 372px;
+	/* IE5 hack */
+	margin: 0px 0px -3px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+.innerbox5 {
+	height: 250px;
+	/* IE5 hack */
+	margin: 0px 0px -3px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+.dropshadow6 {
+	width: 1024px;
+	/* IE5 hack */
+	margin: 0px 0px -3px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+.innerbox6 {
+	height: 100px;
+	/* IE5 hack */
+	margin: 0px 0px -3px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+.innerbox2 {
+	/* IE5 hack */
+	margin: 0px 0px -3px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+.innerbox2 p {
+	font-size: 14px;
+	margin: 3px;
+}
+/*End  增加边框阴影效果 .dropshadow2 外边框 .innerbox内边框*/

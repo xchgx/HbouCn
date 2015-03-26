@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd
+        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
+	<!-- 扫描web包，应用Spring的注解 -->
+	<context:component-scan base-package="com.xchgx.controller" >
+		<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>   
+	</context:component-scan>
+	<mvc:annotation-driven />
+<!-- 	 <bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter">   -->
+<!--      <property name="messageConverters">   -->
+<!--       <list>   -->
+<!--        <bean   -->
+<!--         class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter" />   -->
+<!--       </list>   -->
+<!--      </property>   -->
+<!--     </bean>   -->
+	<bean id="validator"
+		class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean">
+		<property name="providerClass" value="org.hibernate.validator.HibernateValidator" />
+		<property name="validationMessageSource" ref="messageSource"/>
+	</bean>
+	<bean id="messageSource"
+		class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+		<property name="basename" value="classpath:messages" />
+		<property name="fileEncodings" value="utf-8" />
+		<property name="cacheSeconds" value="120" />
+	</bean>
+	<!-- 返回JSON模板 -->
+	<!-- <bean -->
+	<!-- class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter"> -->
+	<!-- <property name="messageConverters"> -->
+	<!-- <list> -->
+	<!-- <bean -->
+	<!-- class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter" 
+		/> -->
+	<!-- </list> -->
+	<!-- </property> -->
+	<!-- </bean> -->
+
+	<!-- 注意：FreeMarker与SpringMVC集成时，其配置一定要放在SpringMVC的配置之前 -->
+	<!-- 否则：在访问"/getUser"时服务器就会报告[HTTP Status 404 - /WEB-INF/jsp/myfree.jsp] -->
+	<!-- <bean id="freemarkerConfig" -->
+	<!-- class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer"> -->
+	<!-- 指定FreeMarker模板文件目录 -->
+	<!-- <property name="templateLoaderPath" value="/WEB-INF/views/fm/" /> -->
+	<!-- <property name="freemarkerVariables"> -->
+	<!-- <map> -->
+	<!-- <entry key="xml_escape" value-ref="fmXmlEscape"></entry> -->
+	<!-- </map> -->
+	<!-- </property> -->
+	<!-- 编码设置 -->
+	<!-- <property name="freemarkerSettings"> -->
+	<!-- <props> -->
+	<!-- <prop key="template_update_delay">10</prop> -->
+	<!-- <prop key="defaultEncoding">UTF-8</prop> -->
+	<!-- </props> -->
+	<!-- </property> -->
+	<!-- </bean> -->
+	<!-- <bean id="fmXmlEscape" class="freemarker.template.utility.XmlEscape"></bean> -->
+	<!-- <bean id="freeMarkerViewResolver" -->
+	<!-- class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver"> -->
+	<!-- <property name="prefix" value="" /> -->
+	<!-- <property name="suffix" value=".ftl" /> -->
+	<!-- <property name="contentType" value="text/html; charset=UTF-8" /> -->
+	<!-- <property name="exposeRequestAttributes" value="true"></property> -->
+	<!-- <property name="exposeSessionAttributes" value="true"></property> -->
+	<!-- <property name="exposeSpringMacroHelpers" value="true"></property> -->
+	<!-- </bean> -->
+
+
+<!--    配置文件上传-->
+    <bean id="multipartResolver"  
+          class="org.springframework.web.multipart.commons.CommonsMultipartResolver">  
+        <property name="defaultEncoding" value="utf-8" />  
+        <property name="maxUploadSize" value="10485760000" />  
+        <property name="maxInMemorySize" value="40960" />  
+    </bean>  
+    <bean id="hukouController" class="com.xchgx.controller.jiuye.hukou.HukouController">
+    	<property name="multipartResolver" ref="multipartResolver"></property>
+    </bean>
+    
+	<!-- 配置视图解析器，将ModelAndView及字符串解析为具体的页面 -->
+	<!-- 定义视图解析器 -->
+	<bean id="viewResolver"
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver"
+		p:viewClass="org.springframework.web.servlet.view.JstlView">
+		<property name="prefix" value="/WEB-INF/views/"></property>
+		<property name="suffix" value=".jsp"></property>
+	</bean>
+	<!-- <bean -->
+	<!-- class="org.springframework.web.servlet.view.InternalResourceViewResolver" -->
+	<!-- p:viewClass="org.springframework.web.servlet.view.JstlView" -->
+	<!-- p:prefix="/WEB-INF/views/" -->
+	<!-- p:suffix=".jsp" /> -->
+</beans>

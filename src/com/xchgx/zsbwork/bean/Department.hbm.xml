@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+		"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.xchgx.zsbwork.bean">
+	<class name="Department" table="t_department">
+		<id name="id" column="id">
+			<generator class="native" />
+		</id>
+		<property name="name" not-null="true" />
+		<property name="description" />
+		<property name="level" not-null="true" />
+		
+		<many-to-one name="school" column="schoolId" lazy="false"/>
+		<many-to-one name="departmentType" column="departmentTypeId" lazy="false"
+			cascade="save-update"></many-to-one>
+		<many-to-one name="manager" column="managerId" lazy="false" cascade="save-update" class="Teacher"></many-to-one>
+		<many-to-one name="fatherDepartment" column="fatherDepartmentId" lazy="false"
+			class="Department"></many-to-one>
+		
+		<set name="teachers" table="TeacherDepartment" lazy="false" order-by="teacherId">
+			<key column="departmentId"></key>
+			<many-to-many column="teacherId" class="Teacher"></many-to-many>
+		</set>
+		<set name="articleTeachers" table="TeacherArticleDepartment" lazy="false" order-by="teacherId">
+			<key column="departmentId"></key>
+			<many-to-many column="teacherId" class="Teacher"></many-to-many>
+		</set>
+		<set name="navigations" table="DepartmentNavigation" inverse="false"  cascade="all">
+			<key column="departmentId"></key>
+			<many-to-many column="navigationId" class="com.xchgx.domain.Navigation"></many-to-many>
+		</set>
+		
+		<set name="childDepartments" cascade="save-update" lazy="false" order-by="name">
+			<key column="fatherDepartmentId"></key>
+			<one-to-many class="Department" />
+		</set>
+		<set name="articles" inverse="true"  order-by="id desc" lazy="false">
+			<key column="departmentId"></key>
+			<one-to-many class="com.xchgx.domain.Article" />
+		</set>
+		<set name="sections" inverse="true" order-by="id desc" lazy="false">
+			<key column="departmentId"></key>
+			<one-to-many class="com.xchgx.domain.Section"/>
+		</set>
+		<!-- private Integer id; -->
+		<!-- private String name; -->
+		<!-- private School school; -->
+		<!-- private Teacher teacher; -->
+		<!-- private String description;//备注 -->
+	</class>
+</hibernate-mapping>

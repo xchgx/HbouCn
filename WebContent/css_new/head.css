@@ -1,0 +1,136 @@
+@CHARSET "UTF-8";
+/**
+ * 	head头部栏css设置
+ */
+
+#head {
+    display:block;
+    width: 980px;
+    height:200px;
+    text-align:center;
+    background: url('../img/index/headbackgroundxiaoming.png') ;
+    /*filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";  */
+    /*-moz-background-size:100% 100%;  */
+    /*background-size:50% 50%;  */
+    background-position: bottom center;
+    /*background-attachment:inherit;*/
+   background-repeat:no-repeat;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /*height: 100px;*/
+    /*width: 800px;*/
+    /*background-color: #FFEDAD;*/
+    /*background-image: url("../img/index/head_background.png");*/
+    /*background-color: #274F75;*/
+}
+/*#header {
+    width: 1024px;
+    margin: 0px auto 1px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: left;
+    color: #555;
+    line-height: 20px;
+    background: #dadada;
+        z-index: 9999;
+}*/
+#head #head_left{
+    position:relative;
+   float:left;
+   display:block;
+   /*background: #FF0000;*/
+   height: 100px;
+   width:20px;
+   margin: 0px;
+   padding: 0px;
+}
+#head #head_center{
+    position:relative;
+    float: left;
+    display:block;
+   /*background: #00FF00;*/
+  background-image: url('../img/index/headbackground.png');
+    background-repeat:repeat;
+   height: 90px;
+   width: 400px;
+   margin: 5px 0px 0px 0px;
+   padding: 0px 0px 0px 20px;
+} 
+#head #head_right{
+    position:relative;
+    float:right;
+    display:block;
+    /*background: #0000FF;*/
+   height: 100px;
+   width:20px;
+   margin: 0px;
+   padding: 0px;
+}
+/*头部层中间校名内容 Start*/
+#head #head_center #head_center_margin_top{
+    position:relative;
+    float:left;
+    display:block;
+    /*background: #00FFDD;*/
+    height: 10px;
+    width: 580px;
+    margin: 0px;
+    padding: 0px;
+}
+#head #head_center #head_center_img_xiaohui{
+    position:relative;
+    float:left;
+    display:block;
+    /*background: #0000FF;*/
+    height: 70px;
+    width: 70px;
+    margin: 0px;
+    padding: 0px;
+    text-align:center;
+    /*background: url('../img/xiaohui.png') ;
+    filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";  
+    -moz-background-size:100% 100%;  
+    background-size:100% 100%;  
+    background-position: center top;
+    background-attachment:inherit;*/
+}
+#head #head_center #head_center_img_xiaoming{
+
+    position:relative;
+    float:left;
+    display:block;
+    /*background: #3333D0;*/
+    height: 45px;
+    width: 300px;
+    margin: 0px; 
+    padding: 0px;
+    text-align:center;
+    /*background: url('../img/hbkfzyxy.png') ;
+    filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";  
+    -moz-background-size:100% 100%;  
+    background-size:100% 100%;  
+    background-position: center top;
+    background-attachment:inherit;*/
+}
+#head #head_center #head_center_englishname{
+
+    position:relative;
+    float:left;
+    display:block;
+    /*background: #00DD00;*/
+    height: 25px;
+    width: 300px;
+    margin: 0px;
+    padding: 0px;
+     
+     text-align:center;
+    /*background: url('../img/text/englishxiaoming.png') ;
+    filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";  
+    -moz-background-size:100% 100%;  
+    background-size:100% 100%;  
+    background-position: center top;
+    background-attachment:inherit;*/
+}
+/*头部层中间校名内容 End*/

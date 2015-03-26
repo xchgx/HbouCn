@@ -1,0 +1,27 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>我的Web桌面系统</title>
+<link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+	<ul id="deskIcon">
+		<li class="desk_icon" id="icon0" path="http://www.baidu.com/">
+			<span class="icon"><img src="images/icon/icon0.png"></span>
+				<div class="left_cron"></div>
+				<div id="text">我的电脑</div>
+				<div class="right_cron"></div>
+		</li>
+		<li class="desk_icon" id="icon1" path="http://www.sina.com.cn/">
+			<span class="icon"><img src="images/icon/icon1.png"></span>
+				<div class="left_cron"></div>
+				<div id="text">我的电脑</div>
+				<div class="right_cron"></div>
+		</li>
+	
+	</ul>
+</body>
+</html>

@@ -1,0 +1,3243 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 11">
+<link rel=File-List href="dc_sy_yx12986.files/filelist.xml">
+<link rel=Edit-Time-Data href="dc_sy_yx12986.files/editdata.mso">
+<link rel=OLE-Object-Data href="dc_sy_yx12986.files/oledata.mso">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:LastAuthor>User</o:LastAuthor>
+  <o:LastSaved>2014-12-31T01:13:14Z</o:LastSaved>
+  <o:Version>11.9999</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:1.0in .75in 1.0in .75in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;}
+tr
+	{mso-height-source:auto;
+	mso-ruby-visibility:none;}
+col
+	{mso-width-source:auto;
+	mso-ruby-visibility:none;}
+br
+	{mso-data-placement:same-cell;}
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:windowtext;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:常规;
+	mso-style-id:0;}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl24
+	{mso-style-parent:style0;
+	font-weight:700;
+	vertical-align:bottom;}
+.xl25
+	{mso-style-parent:style0;
+	font-weight:700;
+	text-align:center;}
+ruby
+	{ruby-align:left;}
+rt
+	{color:windowtext;
+	font-size:9.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-char-type:none;
+	display:none;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+  <x:ExcelWorksheets>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet1</x:Name>
+    <x:WorksheetOptions>
+     <x:DefaultRowHeight>285</x:DefaultRowHeight>
+     <x:StandardWidth>2400</x:StandardWidth>
+     <x:Print>
+      <x:ValidPrinterInfo/>
+      <x:PaperSizeIndex>9</x:PaperSizeIndex>
+      <x:HorizontalResolution>600</x:HorizontalResolution>
+      <x:VerticalResolution>0</x:VerticalResolution>
+     </x:Print>
+     <x:Selected/>
+     <x:Panes>
+      <x:Pane>
+       <x:Number>3</x:Number>
+       <x:ActiveRow>6</x:ActiveRow>
+       <x:ActiveCol>2</x:ActiveCol>
+      </x:Pane>
+     </x:Panes>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+     <x:Height>7620</x:Height>
+     <x:Width>15240</x:Width>
+     <x:ViewableRange>1:65536</x:ViewableRange>
+     <x:Selection>A1</x:Selection>
+    </x:WorksheetOptions>
+    <x:Label Style="border-top:solid .5pt silver;border-left:solid .5pt silver;&#13;&#10;border-right:solid .5pt silver;border-bottom:solid .5pt silver">
+     <x:Caption>Microsoft Office Spreadsheet</x:Caption>
+    </x:Label>
+   </x:ExcelWorksheet>
+  </x:ExcelWorksheets>
+  <x:WindowHeight>10005</x:WindowHeight>
+  <x:WindowWidth>10005</x:WindowWidth>
+  <x:WindowTopX>120</x:WindowTopX>
+  <x:WindowTopY>135</x:WindowTopY>
+  <x:ProtectStructure>False</x:ProtectStructure>
+  <x:ProtectWindows>False</x:ProtectWindows>
+  <x:MaxHeight>80%</x:MaxHeight>
+  <x:MaxWidth>80%</x:MaxWidth>
+ </x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+
+<body link=blue vlink=purple>
+
+<table x:str border=0 cellpadding=0 cellspacing=0 width=1065 style='border-collapse:
+ collapse;table-layout:fixed;width:798pt'>
+ <col width=120 style='mso-width-source:userset;mso-width-alt:3840;width:90pt'>
+ <col width=120 span=6 style='mso-width-source:userset;mso-width-alt:3840;
+ width:90pt'>
+ <col width=75 span=3 style='width:56pt'>
+ <tr height=19 style='height:14.25pt'>
+  <td colspan=7 height=19 class=xl25 width=840 style='height:14.25pt;
+  width:630pt'>2007届毕业生报到证、档案托管去向</td>
+  <td width=75 style='width:56pt'></td>
+  <td width=75 style='width:56pt'></td>
+  <td width=75 style='width:56pt'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 class=xl24 style='height:14.25pt'>学号</td>
+  <td class=xl24>姓名</td>
+  <td class=xl24>性别</td>
+  <td class=xl24>专业</td>
+  <td class=xl24>身份证</td>
+  <td class=xl24>毕业去向</td>
+  <td class=xl24 colspan=2 style='mso-ignore:colspan'>报到证签往单位名称</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2003201013</td>
+  <td>方定科</td>
+  <td>男</td>
+  <td>计算机及应用</td>
+  <td>42900619841125<span style='display:none'>0313</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省荆门市大中专毕业生就业工作办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004201001</td>
+  <td>方小军</td>
+  <td>男</td>
+  <td>计算机及应用</td>
+  <td>33078219850217<span style='display:none'>4517</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>浙江省金华市人事局</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004202001</td>
+  <td>郑冲</td>
+  <td>男</td>
+  <td>计算机软件</td>
+  <td>42900619870109<span style='display:none'>3352</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>湖北省人力资源市场</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004202002</td>
+  <td>马鹏飞</td>
+  <td>男</td>
+  <td>应用电子技术</td>
+  <td>62272519840320<span style='display:none'>0314</span></td>
+  <td>派遣</td>
+  <td>甘肃省人事厅</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004202003</td>
+  <td>谢传斌</td>
+  <td>男</td>
+  <td>应用电子技术</td>
+  <td>36073019850316<span style='display:none'>001X</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>江西省赣州市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004202004</td>
+  <td>黄晖</td>
+  <td>男</td>
+  <td>应用电子技术</td>
+  <td>42020219840304<span style='display:none'>121x</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省黄石市大中专毕业生就业工作办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004202005</td>
+  <td>蔡双雄</td>
+  <td>男</td>
+  <td>应用电子技术</td>
+  <td>42118219860108<span style='display:none'>2538</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省黄冈市大中专毕业生分配办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004202007</td>
+  <td>袁增</td>
+  <td>男</td>
+  <td>应用电子技术</td>
+  <td>15020519840405<span style='display:none'>1616</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>湖北省人力资源市场</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004202008</td>
+  <td>孙磊</td>
+  <td>男</td>
+  <td>应用电子技术</td>
+  <td>32032419821209<span style='display:none'>591X</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>江苏省徐州市人事局</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004202010</td>
+  <td>李明焱</td>
+  <td>男</td>
+  <td>应用电子技术</td>
+  <td>42282319850312<span style='display:none'>2590</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>湖北省高校毕业生就业指导服务中心</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004202011</td>
+  <td>李瑞</td>
+  <td>男</td>
+  <td>应用电子技术</td>
+  <td>42011419850903<span style='display:none'>2813</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>武汉市人民政府大中专毕业生就业管理办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004202012</td>
+  <td>黄纯威</td>
+  <td>男</td>
+  <td>应用电子技术</td>
+  <td>42900519870127<span style='display:none'>2653</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>湖北省高校毕业生就业指导服务中心</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004202013</td>
+  <td>郑卫林</td>
+  <td>男</td>
+  <td>应用电子技术</td>
+  <td>42118119841130<span style='display:none'>0411</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>湖北省高校毕业生就业指导服务中心</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004202014</td>
+  <td>王鑫</td>
+  <td>男</td>
+  <td>应用电子技术</td>
+  <td>32068419850803<span style='display:none'>6911</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>江苏省常州市人事局</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004202016</td>
+  <td>刘峰</td>
+  <td>男</td>
+  <td>应用电子技术</td>
+  <td>32032419850115<span style='display:none'>033X</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>江苏省徐州市人事局</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004202017</td>
+  <td>陆敬强</td>
+  <td>男</td>
+  <td>应用电子技术</td>
+  <td>32132119841122<span style='display:none'>7454</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>江苏省宿迁市人事局</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004202018</td>
+  <td>安世明</td>
+  <td>男</td>
+  <td>应用电子技术</td>
+  <td>62242519830516<span style='display:none'>7614</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>甘肃省定西市人事局</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004202020</td>
+  <td>梁刚</td>
+  <td>男</td>
+  <td>应用电子技术</td>
+  <td>46000219840615<span style='display:none'>0354</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>海南省省直辖县级行政单位毕办</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004202021</td>
+  <td>寇铁飞</td>
+  <td>男</td>
+  <td>应用电子技术</td>
+  <td>152626830106601</td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>内蒙古高校毕业生就业指导中心</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004202022</td>
+  <td>乔世山</td>
+  <td>男</td>
+  <td>应用电子技术</td>
+  <td>63212419870924<span style='display:none'>6510</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>青海省湟中县人事局</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004202023</td>
+  <td>夏章文</td>
+  <td>男</td>
+  <td>应用电子技术</td>
+  <td>62222319811001<span style='display:none'>1317</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>湖北省人力资源市场</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004202024</td>
+  <td>尚全龙</td>
+  <td>男</td>
+  <td>应用电子技术</td>
+  <td>15022219840329<span style='display:none'>2019</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>内蒙古包头市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004202026</td>
+  <td>任孝为</td>
+  <td>男</td>
+  <td>工商管理</td>
+  <td>42100319870708<span style='display:none'>3239</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省荆门市大中专毕业生就业工作办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004202027</td>
+  <td>周娟</td>
+  <td>女</td>
+  <td>应用电子技术</td>
+  <td>42011119860131<span style='display:none'>4064</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>武汉市人民政府大中专毕业生就业管理办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004202028</td>
+  <td>陈小庆</td>
+  <td>女</td>
+  <td>应用电子技术</td>
+  <td>32062119860101<span style='display:none'>3022</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>江苏省南通市人事局</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004202029</td>
+  <td>许双双</td>
+  <td>女</td>
+  <td>应用电子技术</td>
+  <td>42088119851007<span style='display:none'>3725</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省荆门市大中专毕业生就业工作办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004202030</td>
+  <td>刘丹</td>
+  <td>女</td>
+  <td>应用电子技术</td>
+  <td>42011419850711<span style='display:none'>0048</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>武汉市人民政府大中专毕业生就业管理办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004202033</td>
+  <td>张丽丽</td>
+  <td>女</td>
+  <td>应用电子技术</td>
+  <td>32032419860504<span style='display:none'>4187</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>江苏省徐州市人事局</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004202036</td>
+  <td>高军</td>
+  <td>男</td>
+  <td>应用电子技术</td>
+  <td>15263219840915<span style='display:none'>4238</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>内蒙古包头市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004202037</td>
+  <td>张向丽</td>
+  <td>男</td>
+  <td>应用电子技术</td>
+  <td>15042619830424<span style='display:none'>3015</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>内蒙古高校毕业生就业指导中心</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203001</td>
+  <td>邓烈琼</td>
+  <td>女</td>
+  <td>工商管理</td>
+  <td>42108119851007<span style='display:none'>5520</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>湖北省荆州市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203002</td>
+  <td>郭艳</td>
+  <td>女</td>
+  <td>工商管理</td>
+  <td>42011119860220<span style='display:none'>5521</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>湖北省荆州市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203003</td>
+  <td>范波</td>
+  <td>男</td>
+  <td>工商管理</td>
+  <td>42108119860729<span style='display:none'>5495</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省荆州市大中专毕业生就业指导办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203004</td>
+  <td>罗超</td>
+  <td>男</td>
+  <td>工商管理</td>
+  <td>42108119850615<span style='display:none'>3973</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省荆州市大中专毕业生就业指导办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203005</td>
+  <td>马庆和</td>
+  <td>女</td>
+  <td>工商管理</td>
+  <td>42108119850407<span style='display:none'>0648</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>湖北省荆州市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203006</td>
+  <td>袁立鸿</td>
+  <td>女</td>
+  <td>工商管理</td>
+  <td>42108119860826<span style='display:none'>3989</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省荆州市大中专毕业生就业指导办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203007</td>
+  <td>曹涛</td>
+  <td>男</td>
+  <td>工商管理</td>
+  <td>42108119861115<span style='display:none'>2278</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省荆州市大中专毕业生就业指导办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203008</td>
+  <td>姚爱玲</td>
+  <td>女</td>
+  <td>工商管理</td>
+  <td>42100319850901<span style='display:none'>3280</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>湖北省人力资源市场</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203009</td>
+  <td>李慧</td>
+  <td>女</td>
+  <td>工商管理</td>
+  <td>42010519851121<span style='display:none'>3625</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>武汉市人民政府大中专毕业生就业管理办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203010</td>
+  <td>常哲</td>
+  <td>男</td>
+  <td>工商管理</td>
+  <td>42108319870827<span style='display:none'>0011</span></td>
+  <td>派遣</td>
+  <td>荆州市毕办</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203011</td>
+  <td>徐峰</td>
+  <td>男</td>
+  <td>工商管理</td>
+  <td>32068319870519<span style='display:none'>6854</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>江苏省通州市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203012</td>
+  <td>陈标</td>
+  <td>男</td>
+  <td>工商管理</td>
+  <td>37132619831205<span style='display:none'>6419</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>山东省临沂市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203013</td>
+  <td>梁伟滨</td>
+  <td>男</td>
+  <td>工商管理</td>
+  <td>44190019850609<span style='display:none'>6176</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>广东省东莞市毕业</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203014</td>
+  <td>叶惠傍</td>
+  <td>男</td>
+  <td>工商管理</td>
+  <td>44190019840313<span style='display:none'>351X</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>广东省东莞市毕业</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203015</td>
+  <td>蔡浪</td>
+  <td>男</td>
+  <td>工商管理</td>
+  <td>44092319821209<span style='display:none'>1752</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>广东省茂名市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203016</td>
+  <td>吕柱</td>
+  <td>男</td>
+  <td>工商管理</td>
+  <td>441521830712001</td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>湖北省高校毕业生就业指导服务中心</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203017</td>
+  <td>邓南通</td>
+  <td>男</td>
+  <td>工商管理</td>
+  <td>44188119840414<span style='display:none'>7211</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>广东省清远市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203018</td>
+  <td>孙立峰</td>
+  <td>男</td>
+  <td>工商管理</td>
+  <td>33068219830828<span style='display:none'>301X</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>河南省郑州市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203019</td>
+  <td>苏锦强</td>
+  <td>男</td>
+  <td>工商管理</td>
+  <td>45042119841102<span style='display:none'>6517</span></td>
+  <td>派遣</td>
+  <td>广西梧州市毕办</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203020</td>
+  <td>潘林娟</td>
+  <td>女</td>
+  <td>工商管理</td>
+  <td>46020019850828<span style='display:none'>3148</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>海南省三亚市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203021</td>
+  <td>刘健广</td>
+  <td>男</td>
+  <td>工商管理</td>
+  <td>46003419850705<span style='display:none'>0038</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>海南省陵水黎族自治县人事局</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203022</td>
+  <td>杨巧珍</td>
+  <td>女</td>
+  <td>工商管理</td>
+  <td>14242919860111<span style='display:none'>3822</span></td>
+  <td>回原籍</td>
+  <td colspan=2 style='mso-ignore:colspan'>山西省晋中市教育局</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203023</td>
+  <td>郭娟娟</td>
+  <td>女</td>
+  <td>工商管理</td>
+  <td>14263119870315<span style='display:none'>3529</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>山西省临汾市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203024</td>
+  <td>田太晖</td>
+  <td>男</td>
+  <td>工商管理</td>
+  <td>15232319840507<span style='display:none'>3454</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>内蒙古兴安盟毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203025</td>
+  <td>杨志刚</td>
+  <td>男</td>
+  <td>工商管理</td>
+  <td>15262919850228<span style='display:none'>0038</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>内蒙古高校毕业生就业指导中心</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203026</td>
+  <td>胡国安</td>
+  <td>男</td>
+  <td>工商管理</td>
+  <td>63212419860519<span style='display:none'>623X</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>青海省西宁市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203027</td>
+  <td>吴忠悦</td>
+  <td>女</td>
+  <td>工商管理</td>
+  <td>63212619850420<span style='display:none'>3325</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>青海省海东地区毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203028</td>
+  <td>张倩</td>
+  <td>女</td>
+  <td>工商管理</td>
+  <td>42068319850608<span style='display:none'>5442</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省襄阳市大中专毕业生就业工作办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203029</td>
+  <td>闻丹</td>
+  <td>女</td>
+  <td>工商管理</td>
+  <td>42112519840917<span style='display:none'>0928</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省黄冈市大中专毕业生分配办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203030</td>
+  <td>曹利</td>
+  <td>女</td>
+  <td>工商管理</td>
+  <td>42112619850828<span style='display:none'>1726</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>湖北省黄冈市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203032</td>
+  <td>刘伟</td>
+  <td>男</td>
+  <td>工商管理</td>
+  <td>14230219840315<span style='display:none'>1013</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>山西省吕梁市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203033</td>
+  <td>黄莉</td>
+  <td>女</td>
+  <td>工商管理</td>
+  <td>36252419850916<span style='display:none'>4023</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>江西省高等院校毕业生就业工作办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203034</td>
+  <td>梁滢</td>
+  <td>女</td>
+  <td>工商管理</td>
+  <td>44122519851028<span style='display:none'>2528</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>广东省肇庆市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203035</td>
+  <td>杨季</td>
+  <td>男</td>
+  <td>工商管理</td>
+  <td>46000619831222<span style='display:none'>7213</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>海南省万宁市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203036</td>
+  <td>刘扣</td>
+  <td>男</td>
+  <td>工商管理</td>
+  <td>37292219850517<span style='display:none'>1438</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>山东省荷泽市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203037</td>
+  <td>张秋妹</td>
+  <td>女</td>
+  <td>工商管理</td>
+  <td>35042619841118<span style='display:none'>6068</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>福建省三明市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203038</td>
+  <td>姜爱苹</td>
+  <td>女</td>
+  <td>工商管理</td>
+  <td>33088119850220<span style='display:none'>2345</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>浙江省衢州市人事局</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004203039</td>
+  <td>郑妍</td>
+  <td>女</td>
+  <td>工商管理</td>
+  <td>46000619860702<span style='display:none'>7227</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>海南省万宁市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004204001</td>
+  <td>李少良</td>
+  <td>男</td>
+  <td>外贸英语(经贸<span style='display:none'>英语)</span></td>
+  <td>44040219860126<span style='display:none'>9033</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>广东省高等学校毕业生就业指导中心</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004204002</td>
+  <td>陈琳芳</td>
+  <td>女</td>
+  <td>外贸英语(经贸<span style='display:none'>英语)</span></td>
+  <td>45272419830830<span style='display:none'>0028</span></td>
+  <td>派遣</td>
+  <td>广西河池市毕办</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004204003</td>
+  <td>邓梦园</td>
+  <td>女</td>
+  <td>外贸英语(经贸<span style='display:none'>英语)</span></td>
+  <td>45060219860116<span style='display:none'>0129</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>广西防城港市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004204004</td>
+  <td>文川霞</td>
+  <td>女</td>
+  <td>外贸英语(经贸<span style='display:none'>英语)</span></td>
+  <td>42108119870106<span style='display:none'>428X</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省荆州市大中专毕业生就业指导办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004204005</td>
+  <td>王丽霞</td>
+  <td>女</td>
+  <td>外贸英语(经贸<span style='display:none'>英语)</span></td>
+  <td>42108119870612<span style='display:none'>4288</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>湖北省荆州市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004204006</td>
+  <td>徐弦</td>
+  <td>女</td>
+  <td>外贸英语(经贸<span style='display:none'>英语)</span></td>
+  <td>42108119870201<span style='display:none'>0662</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>湖北省荆州市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004204007</td>
+  <td>黄俐俐</td>
+  <td>女</td>
+  <td>外贸英语(经贸<span style='display:none'>英语)</span></td>
+  <td>32012319850824<span style='display:none'>0023</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>江苏省南京市毕业生就业指导服务中心</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004204008</td>
+  <td>欧趣琴</td>
+  <td>女</td>
+  <td>外贸英语(经贸<span style='display:none'>英语)</span></td>
+  <td>44068419851008<span style='display:none'>3829</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>广东省佛山市人事局</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004204009</td>
+  <td>游秋平</td>
+  <td>女</td>
+  <td>外贸英语(经贸<span style='display:none'>英语)</span></td>
+  <td>44022119850308<span style='display:none'>1262</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>广东省韶关市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004204010</td>
+  <td>任香柯</td>
+  <td>女</td>
+  <td>外贸英语(经贸<span style='display:none'>英语)</span></td>
+  <td>41018319840312<span style='display:none'>2088</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>河南省郑州市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004204011</td>
+  <td>洪雨</td>
+  <td>女</td>
+  <td>外贸英语(经贸<span style='display:none'>英语)</span></td>
+  <td>41020419841204<span style='display:none'>6021</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>河南省开封市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004204012</td>
+  <td>李智静</td>
+  <td>女</td>
+  <td>外贸英语(经贸<span style='display:none'>英语)</span></td>
+  <td>41020419860819<span style='display:none'>6048</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>河南省开封市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004204013</td>
+  <td>金昕</td>
+  <td>女</td>
+  <td>外贸英语(经贸<span style='display:none'>英语)</span></td>
+  <td>41302519841009<span style='display:none'>3645</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>湖北省高校毕业生就业指导服务中心</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004204014</td>
+  <td>方丽兰</td>
+  <td>女</td>
+  <td>外贸英语(经贸<span style='display:none'>英语)</span></td>
+  <td>53232319840801<span style='display:none'>0943</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>广西百色市人力资源和社会保障局</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004204015</td>
+  <td>李琳琳</td>
+  <td>女</td>
+  <td>外贸英语(经贸<span style='display:none'>英语)</span></td>
+  <td>46010419850115<span style='display:none'>0326</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>海南省海口市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004204016</td>
+  <td>莫佳佳</td>
+  <td>女</td>
+  <td>外贸英语(经贸<span style='display:none'>英语)</span></td>
+  <td>46010319850307<span style='display:none'>1246</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>海南省海口市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004204017</td>
+  <td>杨丽娇</td>
+  <td>女</td>
+  <td>外贸英语(经贸<span style='display:none'>英语)</span></td>
+  <td>46000219851129<span style='display:none'>3226</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>海南省省直辖县级行政单位人事局</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004204018</td>
+  <td>江芬</td>
+  <td>女</td>
+  <td>外贸英语(经贸<span style='display:none'>英语)</span></td>
+  <td>36232919860520<span style='display:none'>062X</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>江西省上饶市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004204019</td>
+  <td>赵献慧</td>
+  <td>女</td>
+  <td>外贸英语(经贸<span style='display:none'>英语)</span></td>
+  <td>15232319841114<span style='display:none'>7624</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>内蒙古通辽市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004204020</td>
+  <td>任淑梅</td>
+  <td>女</td>
+  <td>外贸英语(经贸<span style='display:none'>英语)</span></td>
+  <td>15262419840318<span style='display:none'>0128</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>内蒙古乌兰察布市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004204023</td>
+  <td>吕博</td>
+  <td>女</td>
+  <td>外贸英语(经贸<span style='display:none'>英语)</span></td>
+  <td>42070419860906<span style='display:none'>0029</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省鄂州市人民政府大中专毕业生分配办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004204024</td>
+  <td>邢玉贞</td>
+  <td>女</td>
+  <td>外贸英语(经贸<span style='display:none'>英语)</span></td>
+  <td>46000419850119<span style='display:none'>0023</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>海南省海口市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004204026</td>
+  <td>袁媛</td>
+  <td>女</td>
+  <td>外贸英语(经贸<span style='display:none'>英语)</span></td>
+  <td>41110219860510<span style='display:none'>020X</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>河南省漯河市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206001</td>
+  <td>黄文玲</td>
+  <td>女</td>
+  <td>旅游与酒店管理</td>
+  <td>44088219861003<span style='display:none'>2023</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>广东省高等学校毕业生就业指导中心</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206002</td>
+  <td>张越男</td>
+  <td>女</td>
+  <td>旅游与酒店管理</td>
+  <td>42020319861014<span style='display:none'>2925</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>湖北省黄石市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206003</td>
+  <td>沈丹</td>
+  <td>女</td>
+  <td>旅游与酒店管理</td>
+  <td>42030219850917<span style='display:none'>0947</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>武汉市人民政府大中专毕业生就业管理办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206004</td>
+  <td>刘小平</td>
+  <td>女</td>
+  <td>旅游与酒店管理</td>
+  <td>42112719860310<span style='display:none'>0088</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省黄冈市大中专毕业生分配办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206006</td>
+  <td>周文荣</td>
+  <td>女</td>
+  <td>旅游与酒店管理</td>
+  <td>42082219851021<span style='display:none'>5543</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>湖北省荆门市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206007</td>
+  <td>范丽媛</td>
+  <td>女</td>
+  <td>旅游与酒店管理</td>
+  <td>42088119860720<span style='display:none'>332x</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>湖北省荆门市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206008</td>
+  <td>刘华</td>
+  <td>女</td>
+  <td>旅游与酒店管理</td>
+  <td>42062119830929<span style='display:none'>0501</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>湖北省襄樊市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206009</td>
+  <td>闵小春</td>
+  <td>女</td>
+  <td>旅游与酒店管理</td>
+  <td>42118119850223<span style='display:none'>0420</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>湖北省黄冈市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206010</td>
+  <td>冯鑫荣</td>
+  <td>女</td>
+  <td>旅游与酒店管理</td>
+  <td>32070619860102<span style='display:none'>0523</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>江苏省连云港市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206011</td>
+  <td>孙菲菲</td>
+  <td>女</td>
+  <td>旅游与酒店管理</td>
+  <td>32128119851014<span style='display:none'>8269</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>江苏省泰州市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206012</td>
+  <td>梁敏然</td>
+  <td>女</td>
+  <td>旅游与酒店管理</td>
+  <td>44068119851020<span style='display:none'>6009</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>广东省佛山市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206013</td>
+  <td>朱云香</td>
+  <td>女</td>
+  <td>旅游与酒店管理</td>
+  <td>44530219851215<span style='display:none'>0320</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>广东省云浮市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206014</td>
+  <td>梁海波</td>
+  <td>男</td>
+  <td>旅游与酒店管理</td>
+  <td>21038119850131<span style='display:none'>2513</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>辽宁省鞍山市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206015</td>
+  <td>李艳红</td>
+  <td>女</td>
+  <td>旅游与酒店管理</td>
+  <td>41030519850109<span style='display:none'>0544</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>河南省洛阳市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206016</td>
+  <td>孟素杰</td>
+  <td>男</td>
+  <td>旅游与酒店管理</td>
+  <td>41042219850816<span style='display:none'>2872</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>河南省平顶山市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206017</td>
+  <td>余欣</td>
+  <td>女</td>
+  <td>旅游与酒店管理</td>
+  <td>41282619870415<span style='display:none'>0341</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>河南省驻马店市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206018</td>
+  <td>蒙宾冲</td>
+  <td>男</td>
+  <td>旅游与酒店管理</td>
+  <td>45212419841123<span style='display:none'>007X</span></td>
+  <td>派遣</td>
+  <td>广西南宁市毕办</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206019</td>
+  <td>覃少仁</td>
+  <td>男</td>
+  <td>旅游与酒店管理</td>
+  <td>45212319840925<span style='display:none'>7058</span></td>
+  <td>派遣</td>
+  <td>广西南宁市毕办</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206020</td>
+  <td>梁杰平</td>
+  <td>女</td>
+  <td>旅游与酒店管理</td>
+  <td>45042219840624<span style='display:none'>0224</span></td>
+  <td>派遣</td>
+  <td>广西梧州市毕办</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206021</td>
+  <td>杨好</td>
+  <td>女</td>
+  <td>旅游与酒店管理</td>
+  <td>46010219850627<span style='display:none'>1247</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>海南省海口市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206022</td>
+  <td>吴松柔</td>
+  <td>女</td>
+  <td>旅游与酒店管理</td>
+  <td>46003319861025<span style='display:none'>0023</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>海南省省直辖县级行政单位人事局</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206023</td>
+  <td>陈昌才</td>
+  <td>男</td>
+  <td>旅游与酒店管理</td>
+  <td>46000219840105<span style='display:none'>1015</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>海南省省直辖县级行政单位人事局</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206024</td>
+  <td>周巧欣</td>
+  <td>女</td>
+  <td>旅游与酒店管理</td>
+  <td>46000619850510<span style='display:none'>7242</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>海南省省直辖县级行政单位人事局</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206025</td>
+  <td>黎锦华</td>
+  <td>女</td>
+  <td>旅游与酒店管理</td>
+  <td>46000319850525<span style='display:none'>0445</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>海南省省直辖县级行政单位人事局</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206026</td>
+  <td>韦全业</td>
+  <td>男</td>
+  <td>旅游与酒店管理</td>
+  <td>46000319850422<span style='display:none'>1810</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>海南省省直辖县级行政单位人事局</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206027</td>
+  <td>林聪</td>
+  <td>男</td>
+  <td>旅游与酒店管理</td>
+  <td>46003119840513<span style='display:none'>563X</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>海南省省直辖县级行政单位人事局</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206028</td>
+  <td>罗刚</td>
+  <td>男</td>
+  <td>旅游与酒店管理</td>
+  <td>46003319850507<span style='display:none'>4478</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>海南省省直辖县级行政单位人事局</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206029</td>
+  <td>邢洁</td>
+  <td>女</td>
+  <td>旅游与酒店管理</td>
+  <td>14040219870221<span style='display:none'>3628</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>山西省长治市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206030</td>
+  <td>韩丽娜</td>
+  <td>女</td>
+  <td>旅游与酒店管理</td>
+  <td>14048119840709<span style='display:none'>0448</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>山西省长治市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206031</td>
+  <td>王晓星</td>
+  <td>女</td>
+  <td>旅游与酒店管理</td>
+  <td>14240119850303<span style='display:none'>4526</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>山西省晋中市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206032</td>
+  <td>郝晓妍</td>
+  <td>女</td>
+  <td>旅游与酒店管理</td>
+  <td>14230119840525<span style='display:none'>372x</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>山西省吕梁市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206033</td>
+  <td>杜鹃</td>
+  <td>女</td>
+  <td>旅游与酒店管理</td>
+  <td>15020319840718<span style='display:none'>0162</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>内蒙古包头市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206034</td>
+  <td>张静秋</td>
+  <td>女</td>
+  <td>旅游与酒店管理</td>
+  <td>15040319851103<span style='display:none'>3622</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>湖北省人力资源市场</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206035</td>
+  <td>王晓红</td>
+  <td>女</td>
+  <td>旅游与酒店管理</td>
+  <td>63010319850704<span style='display:none'>1249</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>青海省西宁市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206036</td>
+  <td>李求卓玛</td>
+  <td>女</td>
+  <td>旅游与酒店管理</td>
+  <td>63280119820611<span style='display:none'>0527</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>青海省海西蒙古族藏族自治州毕办</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206037</td>
+  <td>邓艳丽</td>
+  <td>女</td>
+  <td>旅游与酒店管理</td>
+  <td>45223019860119<span style='display:none'>6020</span></td>
+  <td>派遣</td>
+  <td>广西来宾市毕办</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206038</td>
+  <td>胡金山</td>
+  <td>男</td>
+  <td>旅游与酒店管理</td>
+  <td>42062419840619<span style='display:none'>6516</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>湖北省襄樊市人事局</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206039</td>
+  <td>胡鹏</td>
+  <td>男</td>
+  <td>旅游与酒店管理</td>
+  <td>37088119861031<span style='display:none'>0017</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>山东省济宁市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206041</td>
+  <td>韩雪</td>
+  <td>女</td>
+  <td>旅游与酒店管理</td>
+  <td>41050219860327<span style='display:none'>2527</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>河南省安阳市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004206042</td>
+  <td>陈桔萍</td>
+  <td>女</td>
+  <td>旅游与酒店管理</td>
+  <td>41152819850816<span style='display:none'>3765</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>广东省珠海市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207001</td>
+  <td>魏凯</td>
+  <td>男</td>
+  <td>计算机软件</td>
+  <td>42220219851030<span style='display:none'>5737</span></td>
+  <td>回原籍</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省孝感市大中专毕业生就业指导办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207002</td>
+  <td>崔勇</td>
+  <td>男</td>
+  <td>计算机软件</td>
+  <td>15020419841005<span style='display:none'>0314</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>内蒙古高校毕业生就业指导中心</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207003</td>
+  <td>蔡来春</td>
+  <td>男</td>
+  <td>计算机软件</td>
+  <td>15263419820816<span style='display:none'>271X</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>内蒙古高校毕业生就业指导中心</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207004</td>
+  <td>吕内立</td>
+  <td>男</td>
+  <td>计算机软件</td>
+  <td>42212919850529<span style='display:none'>0539</span></td>
+  <td>回原籍</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省黄冈市大中专毕业生分配办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207005</td>
+  <td>张庆伟</td>
+  <td>男</td>
+  <td>计算机软件</td>
+  <td>42108119840123<span style='display:none'>5358</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省荆州市大中专毕业生就业指导办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207006</td>
+  <td>高平</td>
+  <td>男</td>
+  <td>计算机软件</td>
+  <td>42112719861210<span style='display:none'>2210</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省黄冈市大中专毕业生分配办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207007</td>
+  <td>刘丽君</td>
+  <td>女</td>
+  <td>计算机软件</td>
+  <td>42112219850510<span style='display:none'>2125</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>湖北省高校毕业生就业指导服务中心</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207008</td>
+  <td>苏伟</td>
+  <td>女</td>
+  <td>计算机软件</td>
+  <td>32012119850820<span style='display:none'>0926</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>江苏省南京市毕业生就业指导服务中心</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207009</td>
+  <td>杨春林</td>
+  <td>女</td>
+  <td>计算机软件</td>
+  <td>51162119850628<span style='display:none'>4728</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>四川省广安市人力资源和社会保障局</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207010</td>
+  <td>廖地</td>
+  <td>男</td>
+  <td>计算机软件</td>
+  <td>42088119850410<span style='display:none'>1718</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省荆门市大中专毕业生就业工作办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207011</td>
+  <td>韦晓萍</td>
+  <td>女</td>
+  <td>计算机软件</td>
+  <td>45212419830715<span style='display:none'>0360</span></td>
+  <td>派遣</td>
+  <td>广西南宁市毕办</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207012</td>
+  <td>刘勇</td>
+  <td>男</td>
+  <td>计算机软件</td>
+  <td>42011419860202<span style='display:none'>0016</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>武汉市人民政府大中专毕业生就业管理办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207016</td>
+  <td>叶子俊</td>
+  <td>男</td>
+  <td>计算机软件</td>
+  <td>42010619850711<span style='display:none'>281x</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>武汉市人民政府大中专毕业生就业管理办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207017</td>
+  <td>张超</td>
+  <td>男</td>
+  <td>计算机软件</td>
+  <td>42011319851111<span style='display:none'>001x</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>武汉市人民政府大中专毕业生就业管理办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207018</td>
+  <td>曾繁</td>
+  <td>男</td>
+  <td>计算机软件</td>
+  <td>42010519860217<span style='display:none'>2419</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>武汉市人民政府大中专毕业生就业管理办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207019</td>
+  <td>刘威</td>
+  <td>男</td>
+  <td>计算机软件</td>
+  <td>42900419851008<span style='display:none'>2375</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>湖北省人力资源市场</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207020</td>
+  <td>陈正健</td>
+  <td>男</td>
+  <td>计算机软件</td>
+  <td>37021419851130<span style='display:none'>4014</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>山东省青岛市人力资源和社会保障局</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207021</td>
+  <td>贝志丹</td>
+  <td>男</td>
+  <td>计算机软件</td>
+  <td>45242419841119<span style='display:none'>1759</span></td>
+  <td>派遣</td>
+  <td>广西贺州市毕办</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207022</td>
+  <td>史文龙</td>
+  <td>男</td>
+  <td>计算机软件</td>
+  <td>14021119840823<span style='display:none'>4714</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>山西省大同市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207023</td>
+  <td>孙飞</td>
+  <td>男</td>
+  <td>计算机软件</td>
+  <td>15262619820423<span style='display:none'>2119</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>内蒙古高校毕业生就业指导中心</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207024</td>
+  <td>丁一</td>
+  <td>男</td>
+  <td>计算机软件</td>
+  <td>42010619840202<span style='display:none'>2017</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>武汉市人民政府大中专毕业生就业管理办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207025</td>
+  <td>丁维维</td>
+  <td>女</td>
+  <td>计算机软件</td>
+  <td>32062119850516<span style='display:none'>2423</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>江苏省南通市人事局</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207026</td>
+  <td>陈景文</td>
+  <td>女</td>
+  <td>计算机软件</td>
+  <td>42011419851016<span style='display:none'>0505</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>武汉市人民政府大中专毕业生就业管理办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207027</td>
+  <td>张金环</td>
+  <td>女</td>
+  <td>电子商务</td>
+  <td>62012119830401<span style='display:none'>1921</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>湖北省高校毕业生就业指导服务中心</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207028</td>
+  <td>张文亭</td>
+  <td>女</td>
+  <td>计算机软件</td>
+  <td>15212719851001<span style='display:none'>2420</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>内蒙古高校毕业生就业指导中心</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207029</td>
+  <td>潘辉</td>
+  <td>男</td>
+  <td>计算机软件</td>
+  <td>42070319860121<span style='display:none'>2431</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>湖北省人力资源市场</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207030</td>
+  <td>胡梦蝶</td>
+  <td>女</td>
+  <td>计算机软件</td>
+  <td>42070419860809<span style='display:none'>0568</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省鄂州市人民政府大中专毕业生分配办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207031</td>
+  <td>刘华梁</td>
+  <td>男</td>
+  <td>计算机软件</td>
+  <td>42058319860907<span style='display:none'>0772</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>湖北省宜昌市教育局</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207032</td>
+  <td>张作森</td>
+  <td>男</td>
+  <td>计算机软件</td>
+  <td>42282219841013<span style='display:none'>0552</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北恩施土家族苗族自治州人才交流中心</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207033</td>
+  <td>吴姗</td>
+  <td>女</td>
+  <td>计算机软件</td>
+  <td>42010719860217<span style='display:none'>2024</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>武汉市人民政府大中专毕业生就业管理办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207034</td>
+  <td>闵绍楷</td>
+  <td>男</td>
+  <td>计算机软件</td>
+  <td>42092219850511<span style='display:none'>4217</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省孝感市大中专毕业生就业指导办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207035</td>
+  <td>乔长城</td>
+  <td>男</td>
+  <td>计算机软件</td>
+  <td>42052619840919<span style='display:none'>0213</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>湖北省宜昌市教育局</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207036</td>
+  <td>阮鹏志</td>
+  <td>男</td>
+  <td>计算机软件</td>
+  <td>42011719850816<span style='display:none'>6333</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>武汉市人民政府大中专毕业生就业管理办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207037</td>
+  <td>柳嘉琳</td>
+  <td>男</td>
+  <td>计算机软件</td>
+  <td>42010719850916<span style='display:none'>1013</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>武汉市人民政府大中专毕业生就业管理办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207038</td>
+  <td>余贵强</td>
+  <td>男</td>
+  <td>计算机软件</td>
+  <td>42062119850912<span style='display:none'>4831</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省襄阳市大中专毕业生就业工作办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207039</td>
+  <td>官振乾</td>
+  <td>男</td>
+  <td>计算机软件</td>
+  <td>42118119851002<span style='display:none'>5013</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>湖北省劳动就业管理局</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207040</td>
+  <td>汪杰</td>
+  <td>男</td>
+  <td>计算机软件</td>
+  <td>42900619860324<span style='display:none'>0611</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省天门市人社局毕业生就业办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207043</td>
+  <td>林大喜</td>
+  <td>男</td>
+  <td>计算机软件</td>
+  <td>35042619850822<span style='display:none'>6011</span></td>
+  <td>派遣</td>
+  <td>福建省公务员局</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207044</td>
+  <td>谢德忠</td>
+  <td>男</td>
+  <td>计算机软件</td>
+  <td>35042619850218<span style='display:none'>6514</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>湖北省高校毕业生就业指导服务中心</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207047</td>
+  <td>柯春杰</td>
+  <td>男</td>
+  <td>计算机软件</td>
+  <td>14272319830508<span style='display:none'>2011</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>武汉邮电科学研究院</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207049</td>
+  <td>王小军</td>
+  <td>男</td>
+  <td>计算机软件</td>
+  <td>14272319830808<span style='display:none'>2316</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>湖北省劳动就业管理局</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004207050</td>
+  <td>黎杰</td>
+  <td>男</td>
+  <td>计算机软件</td>
+  <td>45092419850401<span style='display:none'>4159</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>广西玉林市人力资源和社会保障局</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004208001</td>
+  <td>肖汉平</td>
+  <td>男</td>
+  <td>电子商务</td>
+  <td>42902119860126<span style='display:none'>0057</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>湖北省神农架林区毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004208002</td>
+  <td>杨丽</td>
+  <td>女</td>
+  <td>电子商务</td>
+  <td>42102219830714<span style='display:none'>3625</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省荆州市大中专毕业生就业指导办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004208003</td>
+  <td>黄海</td>
+  <td>男</td>
+  <td>电子商务</td>
+  <td>42900419861101<span style='display:none'>0039</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>湖北省仙桃市教育局</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004208004</td>
+  <td>刘亮</td>
+  <td>男</td>
+  <td>电子商务</td>
+  <td>42011519850513<span style='display:none'>6638</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>武汉市人民政府大中专毕业生就业管理办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004208005</td>
+  <td>李超</td>
+  <td>男</td>
+  <td>电子商务</td>
+  <td>42108119860714<span style='display:none'>1875</span></td>
+  <td>回原籍</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省荆州市大中专毕业生就业指导办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004208006</td>
+  <td>代啟翠</td>
+  <td>女</td>
+  <td>电子商务</td>
+  <td>42062419861018<span style='display:none'>0060</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>湖北省襄樊市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004208007</td>
+  <td>杨梦玲</td>
+  <td>女</td>
+  <td>电子商务</td>
+  <td>42092319861026<span style='display:none'>0626</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省孝感市大中专毕业生就业指导办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004208008</td>
+  <td>田莎</td>
+  <td>女</td>
+  <td>电子商务</td>
+  <td>42900519870125<span style='display:none'>1801</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>湖北省潜江市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004208009</td>
+  <td>彭刘杨</td>
+  <td>女</td>
+  <td>电子商务</td>
+  <td>42102219861207<span style='display:none'>6641</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>湖北省公安县毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004208010</td>
+  <td>贾玉磊</td>
+  <td>女</td>
+  <td>电子商务</td>
+  <td>32032219831028<span style='display:none'>1940</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>江苏省徐州市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004208011</td>
+  <td>倪全喜</td>
+  <td>男</td>
+  <td>电子商务</td>
+  <td>32038219840224<span style='display:none'>0034</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>江苏省邳州市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004208012</td>
+  <td>卢武汉</td>
+  <td>男</td>
+  <td>电子商务</td>
+  <td>44082319840711<span style='display:none'>1754</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>广东省湛江市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004208013</td>
+  <td>程广通</td>
+  <td>男</td>
+  <td>电子商务</td>
+  <td>41018319840820<span style='display:none'>0516</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>河南省郑州市人力资源和社会保障局</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004208014</td>
+  <td>彭良柱</td>
+  <td>男</td>
+  <td>电子商务</td>
+  <td>41152119860829<span style='display:none'>0011</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>河南省信阳市人力资源和社会保障局</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004208015</td>
+  <td>吴林墩</td>
+  <td>男</td>
+  <td>电子商务</td>
+  <td>35062819830919<span style='display:none'>4532</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>福建省漳州市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004208016</td>
+  <td>吴晓金</td>
+  <td>女</td>
+  <td>电子商务</td>
+  <td>35220119851015<span style='display:none'>0080</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>福建省宁德市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004208017</td>
+  <td>黄冬梅</td>
+  <td>女</td>
+  <td>电子商务</td>
+  <td>45273119860217<span style='display:none'>6025</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>广西河池市人事局</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004208018</td>
+  <td>陈昌富</td>
+  <td>男</td>
+  <td>电子商务</td>
+  <td>46000419830414<span style='display:none'>0617</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>海南省海口市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004208019</td>
+  <td>汤瑜</td>
+  <td>女</td>
+  <td>电子商务</td>
+  <td>46010219850626<span style='display:none'>1823</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>海南省省直辖县级行政单位毕办</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004208020</td>
+  <td>谢景海</td>
+  <td>男</td>
+  <td>电子商务</td>
+  <td>46000619850923<span style='display:none'>023X</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>海南省省直辖县级行政单位毕办</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004208021</td>
+  <td>王莹莹</td>
+  <td>女</td>
+  <td>电子商务</td>
+  <td>46002819851119<span style='display:none'>0044</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>海南省省直辖县级行政单位人事局</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004208022</td>
+  <td>王丹丹</td>
+  <td>女</td>
+  <td>电子商务</td>
+  <td>46003619840910<span style='display:none'>2722</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>海南省省直辖县级行政单位人事局</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004208023</td>
+  <td>欧茂兰</td>
+  <td>女</td>
+  <td>电子商务</td>
+  <td>46000719860608<span style='display:none'>7662</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>海南省东方市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004208024</td>
+  <td>高春燕</td>
+  <td>女</td>
+  <td>电子商务</td>
+  <td>15282519860210<span style='display:none'>6040</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>湖北省人力资源市场</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004208025</td>
+  <td>郑秀兰</td>
+  <td>女</td>
+  <td>电子商务</td>
+  <td>63010519850822<span style='display:none'>0321</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>青海省西宁市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004208026</td>
+  <td>安桂花</td>
+  <td>女</td>
+  <td>电子商务</td>
+  <td>63212219860213<span style='display:none'>0427</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>湖北省人力资源市场</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004208027</td>
+  <td>祁玉萍</td>
+  <td>女</td>
+  <td>电子商务</td>
+  <td>63212319860421<span style='display:none'>214x</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>青海省海东地区毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004208028</td>
+  <td>秦晓琦</td>
+  <td>男</td>
+  <td>旅游与酒店管理</td>
+  <td>63010519851130<span style='display:none'>1317</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>青海省海东地区毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004208029</td>
+  <td>杨雪</td>
+  <td>女</td>
+  <td>电子商务</td>
+  <td>42102219860314<span style='display:none'>6644</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省荆州市大中专毕业生就业指导办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004208030</td>
+  <td>黄慧</td>
+  <td>女</td>
+  <td>电子商务</td>
+  <td>46000319841009<span style='display:none'>0223</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>海南省澄迈县人事劳动保障局</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004208031</td>
+  <td>李跃伟</td>
+  <td>男</td>
+  <td>电子商务</td>
+  <td>41018219860316<span style='display:none'>0330</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>河南省郑州市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004208032</td>
+  <td>吕兰</td>
+  <td>女</td>
+  <td>电子商务</td>
+  <td>42118219850427<span style='display:none'>5549</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省黄冈市大中专毕业生分配办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004208034</td>
+  <td>苏言金</td>
+  <td>男</td>
+  <td>电子商务</td>
+  <td>37292219850325<span style='display:none'>3958</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>山东省荷泽市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004208037</td>
+  <td>姚小雷</td>
+  <td>男</td>
+  <td>电子商务</td>
+  <td>42082219860712<span style='display:none'>4912</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省荆门市大中专毕业生就业工作办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004209001</td>
+  <td>韩灿</td>
+  <td>男</td>
+  <td>涉外会计</td>
+  <td>42052719860123<span style='display:none'>5318</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>湖北省宜昌市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004209002</td>
+  <td>李艳梅</td>
+  <td>女</td>
+  <td>涉外会计</td>
+  <td>41272519830905<span style='display:none'>1106</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>湖北人力资源市场</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004209003</td>
+  <td>杨陶陶</td>
+  <td>男</td>
+  <td>涉外会计</td>
+  <td>41130219850120<span style='display:none'>0012</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>河南省南阳市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004209004</td>
+  <td>徐婷</td>
+  <td>女</td>
+  <td>涉外会计</td>
+  <td>36012419870416<span style='display:none'>5140</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>江西省南昌市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004209005</td>
+  <td>王清</td>
+  <td>女</td>
+  <td>涉外会计</td>
+  <td>63212119850915<span style='display:none'>0021</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>青海省海东地区人事局</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004209006</td>
+  <td>吴慧玲</td>
+  <td>女</td>
+  <td>涉外会计</td>
+  <td>41018219841011<span style='display:none'>3423</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>河南省郑州市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004209007</td>
+  <td>李建德</td>
+  <td>男</td>
+  <td>涉外会计</td>
+  <td>44188219850730<span style='display:none'>0019</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>广东省清远市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004209008</td>
+  <td>陈锡文</td>
+  <td>男</td>
+  <td>涉外会计</td>
+  <td>44190019850327<span style='display:none'>3835</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>广东省东莞市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004209009</td>
+  <td>郑淼</td>
+  <td>女</td>
+  <td>涉外会计</td>
+  <td>41230119860610<span style='display:none'>0522</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>武汉市东西湖区农业局</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004209010</td>
+  <td>甘如意</td>
+  <td>女</td>
+  <td>涉外会计</td>
+  <td>45010619850501<span style='display:none'>0524</span></td>
+  <td>派遣</td>
+  <td>广西南宁市毕办</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004209012</td>
+  <td>孙平</td>
+  <td>男</td>
+  <td>涉外会计</td>
+  <td>14260119850721<span style='display:none'>1017</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>武汉吴家山台商投资区海口工业园管理委员会</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004209013</td>
+  <td>陈慧</td>
+  <td>女</td>
+  <td>涉外会计</td>
+  <td>15272519841107<span style='display:none'>0027</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>内蒙古鄂尔多斯市人事局</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004209014</td>
+  <td>赵崇</td>
+  <td>男</td>
+  <td>涉外会计</td>
+  <td>41282619851001<span style='display:none'>0017</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>河南省驻马店市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004209015</td>
+  <td>贲国荣</td>
+  <td>男</td>
+  <td>涉外会计</td>
+  <td>45033019840216<span style='display:none'>2315</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>广西桂林市人才服务管理办公室</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004209016</td>
+  <td>魏娜</td>
+  <td>女</td>
+  <td>涉外会计</td>
+  <td>15272619850828<span style='display:none'>0043</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>内蒙古鄂尔多斯市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004209017</td>
+  <td>聂小洪</td>
+  <td>男</td>
+  <td>涉外会计</td>
+  <td>51032119830910<span style='display:none'>6917</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>四川省自贡市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004209018</td>
+  <td>仁杰</td>
+  <td>女</td>
+  <td>涉外会计</td>
+  <td>63222419840915<span style='display:none'>0029</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>青海省海北藏族自治州人事局</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004209019</td>
+  <td>邓蓓</td>
+  <td>女</td>
+  <td>涉外会计</td>
+  <td>42900619861109<span style='display:none'>5469</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省天门市人社局毕业生就业办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004209020</td>
+  <td>陈艳昆</td>
+  <td>女</td>
+  <td>涉外会计</td>
+  <td>32032219860531<span style='display:none'>8624</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>江苏省徐州市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004209021</td>
+  <td>周飞</td>
+  <td>男</td>
+  <td>涉外会计</td>
+  <td>42232619831130<span style='display:none'>2513</span></td>
+  <td>派遣</td>
+  <td>福建省公务员局</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004209022</td>
+  <td>王永秋</td>
+  <td>男</td>
+  <td>涉外会计</td>
+  <td>35042619850512<span style='display:none'>6015</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>福建省三明市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004210001</td>
+  <td>王涛</td>
+  <td>男</td>
+  <td>人力资源管理</td>
+  <td>46000619850201<span style='display:none'>231X</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>海南省万宁市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004210002</td>
+  <td>许晓</td>
+  <td>女</td>
+  <td>人力资源管理</td>
+  <td>46002819830525<span style='display:none'>0069</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>海南省大中专毕业生就业指导中心</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004210003</td>
+  <td>张艳</td>
+  <td>女</td>
+  <td>人力资源管理</td>
+  <td>15222319840105<span style='display:none'>1922</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>湖北省高校毕业生就业指导服务中心</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004210004</td>
+  <td>揭平会</td>
+  <td>女</td>
+  <td>人力资源管理</td>
+  <td>42232519840809<span style='display:none'>6123</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省咸宁市大中专毕业生就业工作办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004211001</td>
+  <td>徐永清</td>
+  <td>男</td>
+  <td>证券实务</td>
+  <td>32108119840709<span style='display:none'>4214</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>江苏省扬州市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004211002</td>
+  <td>孙华</td>
+  <td>男</td>
+  <td>证券实务</td>
+  <td>37132619831011<span style='display:none'>4339</span></td>
+  <td>回原籍</td>
+  <td colspan=3 style='mso-ignore:colspan'>山东省临沂市人力资源和社会保障局</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004211003</td>
+  <td>柳堤</td>
+  <td>男</td>
+  <td>证券实务</td>
+  <td>41030319860723<span style='display:none'>0012</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>河南省洛阳市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004211004</td>
+  <td>傅桂琴</td>
+  <td>女</td>
+  <td>证券实务</td>
+  <td>35078119850811<span style='display:none'>6868</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>福建省南平市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004211005</td>
+  <td>邓天琼</td>
+  <td>女</td>
+  <td>证券实务</td>
+  <td>45072219841008<span style='display:none'>3328</span></td>
+  <td>派遣</td>
+  <td>广西钦州市毕办</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004211006</td>
+  <td>黄脉</td>
+  <td>男</td>
+  <td>证券实务</td>
+  <td>46020019850203<span style='display:none'>5514</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>海南省三亚市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004211007</td>
+  <td>徐佳</td>
+  <td>女</td>
+  <td>涉外会计</td>
+  <td>14030319850627<span style='display:none'>0423</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>山西省阳泉市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004212001</td>
+  <td>沈婷</td>
+  <td>女</td>
+  <td>文秘</td>
+  <td>42010619841013<span style='display:none'>0042</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>武汉市人民政府大中专毕业生就业管理办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004213001</td>
+  <td>王关欣</td>
+  <td>男</td>
+  <td>人力资源管理</td>
+  <td>46020019850220<span style='display:none'>0276</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>海南省三亚市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004213002</td>
+  <td>沈全</td>
+  <td>男</td>
+  <td>人力资源管理</td>
+  <td>42010719850512<span style='display:none'>0513</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>武汉市人民政府大中专毕业生就业管理办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004213003</td>
+  <td>高宁</td>
+  <td>男</td>
+  <td>人力资源管理</td>
+  <td>32038119831006<span style='display:none'>6036</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>江苏省徐州市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004213004</td>
+  <td>雷正雄</td>
+  <td>男</td>
+  <td>人力资源管理</td>
+  <td>44078119841018<span style='display:none'>0919</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>广东省高等学校毕业生就业指导中心</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004213005</td>
+  <td>张成武</td>
+  <td>男</td>
+  <td>人力资源管理</td>
+  <td>62232319820722<span style='display:none'>0217</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>甘肃省武威市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004213006</td>
+  <td>丛庆</td>
+  <td>男</td>
+  <td>人力资源管理</td>
+  <td>21021219850508<span style='display:none'>541x</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>辽宁省大连市人事局</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004213007</td>
+  <td>王朝正</td>
+  <td>男</td>
+  <td>人力资源管理</td>
+  <td>46002819841215<span style='display:none'>0872</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>海南省省直辖县级行政单位毕办</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004213008</td>
+  <td>范亮亮</td>
+  <td>男</td>
+  <td>人力资源管理</td>
+  <td>14243119841126<span style='display:none'>3311</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>山西省晋中市教育局</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004213009</td>
+  <td>徐楠</td>
+  <td>女</td>
+  <td>人力资源管理</td>
+  <td>62280119850715<span style='display:none'>0221</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>甘肃省庆阳市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004213010</td>
+  <td>黄晓雯</td>
+  <td>女</td>
+  <td>人力资源管理</td>
+  <td>42098319840312<span style='display:none'>1048</span></td>
+  <td>回原籍</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省随州市大中专毕业生就业工作办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004213011</td>
+  <td>武剑锐</td>
+  <td>女</td>
+  <td>人力资源管理</td>
+  <td>15022119841124<span style='display:none'>3827</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>内蒙古高校毕业生就业指导中心</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004213012</td>
+  <td>李红娟</td>
+  <td>女</td>
+  <td>人力资源管理</td>
+  <td>15232619830626<span style='display:none'>6380</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>内蒙古高校毕业生就业指导中心</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004213013</td>
+  <td>黄平华</td>
+  <td>女</td>
+  <td>人力资源管理</td>
+  <td>44140219860109<span style='display:none'>1328</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>广东省梅州市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004213014</td>
+  <td>年莉娜</td>
+  <td>女</td>
+  <td>人力资源管理</td>
+  <td>15020719861202<span style='display:none'>1027</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>内蒙古高校毕业生就业指导中心</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004213015</td>
+  <td>仪晓春</td>
+  <td>女</td>
+  <td>人力资源管理</td>
+  <td>15040419841002<span style='display:none'>0925</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>内蒙古赤峰市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004213016</td>
+  <td>左勇江</td>
+  <td>男</td>
+  <td>人力资源管理</td>
+  <td>45212819850202<span style='display:none'>3012</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>广西崇左市人力资源和社会保障局</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004213017</td>
+  <td>陈利荣</td>
+  <td>男</td>
+  <td>人力资源管理</td>
+  <td>44130119841130<span style='display:none'>161X</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>广东省高等学校毕业生就业指导中心</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004213018</td>
+  <td>陈娟</td>
+  <td>女</td>
+  <td>人力资源管理</td>
+  <td>35042619850624<span style='display:none'>1023</span></td>
+  <td>回原籍</td>
+  <td>福建省公务员局</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214001</td>
+  <td>卢超</td>
+  <td>男</td>
+  <td>应用日语</td>
+  <td>42020519860103<span style='display:none'>5717</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省黄石市大中专毕业生就业工作办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214002</td>
+  <td>卢国强</td>
+  <td>男</td>
+  <td>应用日语</td>
+  <td>44050719860207<span style='display:none'>2010</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>广东省高等学校毕业生就业指导中心</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214003</td>
+  <td>李盼</td>
+  <td>男</td>
+  <td>应用日语</td>
+  <td>44142119850621<span style='display:none'>531X</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>广东省高等学校毕业生就业指导中心</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214004</td>
+  <td>林燕龙</td>
+  <td>男</td>
+  <td>应用日语</td>
+  <td>44522119850518<span style='display:none'>4972</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>广东省高等学校毕业生就业指导中心</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214005</td>
+  <td>韩尚琦</td>
+  <td>男</td>
+  <td>应用日语</td>
+  <td>62262419860107<span style='display:none'>0539</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>甘肃省陇南市大中专毕业生择业指导中心</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214006</td>
+  <td>杨晓光</td>
+  <td>男</td>
+  <td>应用日语</td>
+  <td>15042119831023<span style='display:none'>0032</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>内蒙古高校毕业生就业指导中心</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214008</td>
+  <td>白仲霞</td>
+  <td>女</td>
+  <td>应用日语</td>
+  <td>62292319840105<span style='display:none'>1229</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>甘肃省临夏回族自治州人事局</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214009</td>
+  <td>孙鹏</td>
+  <td>男</td>
+  <td>应用日语</td>
+  <td>37028419850920<span style='display:none'>0418</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>山东省青岛市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214010</td>
+  <td>朱冬琼</td>
+  <td>女</td>
+  <td>应用日语</td>
+  <td>35052119841128<span style='display:none'>2061</span></td>
+  <td>派遣</td>
+  <td>福建省公务员局</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214011</td>
+  <td>胡芬</td>
+  <td>女</td>
+  <td>应用日语</td>
+  <td>42070319851109<span style='display:none'>6385</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省鄂州市人民政府大中专毕业生分配办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214012</td>
+  <td>汪卷萍</td>
+  <td>女</td>
+  <td>应用日语</td>
+  <td>42100219860110<span style='display:none'>148x</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省荆州市大中专毕业生就业指导办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214013</td>
+  <td>梁哲</td>
+  <td>女</td>
+  <td>应用日语</td>
+  <td>45222719851026<span style='display:none'>0287</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>广西柳州市人力资源和社会保障局</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214015</td>
+  <td>郑奇</td>
+  <td>女</td>
+  <td>应用日语</td>
+  <td>42098319860720<span style='display:none'>9244</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省随州市大中专毕业生就业工作办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214016</td>
+  <td>圣青霞</td>
+  <td>女</td>
+  <td>应用日语</td>
+  <td>42900419861015<span style='display:none'>0347</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>湖北省省直辖行政单位毕办</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214017</td>
+  <td>秦晓</td>
+  <td>女</td>
+  <td>工商管理</td>
+  <td>32058219860820<span style='display:none'>3029</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>江苏省苏州市大中专毕业生就业指导中心</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214018</td>
+  <td>王秀云</td>
+  <td>女</td>
+  <td>应用日语</td>
+  <td>32072119840723<span style='display:none'>0627</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>江苏省连云港市人事局</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214019</td>
+  <td>王颖</td>
+  <td>女</td>
+  <td>应用日语</td>
+  <td>32030319860202<span style='display:none'>4322</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>江苏省徐州市毕业生就业指导服务中心</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214020</td>
+  <td>刘艳芝</td>
+  <td>女</td>
+  <td>应用日语</td>
+  <td>32038219840821<span style='display:none'>5729</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>江苏省徐州市毕业生就业指导服务中心</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214021</td>
+  <td>张杏金</td>
+  <td>女</td>
+  <td>应用日语</td>
+  <td>44200019850815<span style='display:none'>5303</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>广东省中山市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214022</td>
+  <td>曾俞甄</td>
+  <td>女</td>
+  <td>应用日语</td>
+  <td>44152119840721<span style='display:none'>4421</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>广东省汕尾市人事局</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214023</td>
+  <td>张嫒平</td>
+  <td>女</td>
+  <td>应用日语</td>
+  <td>44142119850525<span style='display:none'>6224</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>广东省高等学校毕业生就业指导中心</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214024</td>
+  <td>李晓婷</td>
+  <td>女</td>
+  <td>应用日语</td>
+  <td>35072319851201<span style='display:none'>2523</span></td>
+  <td>派遣</td>
+  <td>福建省公务员局</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214025</td>
+  <td>曾秋梅</td>
+  <td>女</td>
+  <td>应用日语</td>
+  <td>35082119850826<span style='display:none'>0025</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>福建省龙岩市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214026</td>
+  <td>张珊</td>
+  <td>女</td>
+  <td>应用日语</td>
+  <td>45060219861208<span style='display:none'>5144</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>广西防城港市人力资源和社会保障局</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214027</td>
+  <td>邓菊</td>
+  <td>女</td>
+  <td>应用日语</td>
+  <td>46020019841224<span style='display:none'>0020</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>海南省大中专毕业生就业指导中心</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214028</td>
+  <td>詹少蕊</td>
+  <td>女</td>
+  <td>应用日语</td>
+  <td>46000219850130<span style='display:none'>4622</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>海南省省直辖县级行政单位毕办</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214029</td>
+  <td>温臻</td>
+  <td>女</td>
+  <td>应用日语</td>
+  <td>46000319850222<span style='display:none'>0646</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>海南省省直辖县级行政单位毕办</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214030</td>
+  <td>温宝慧</td>
+  <td>女</td>
+  <td>应用日语</td>
+  <td>46000319850602<span style='display:none'>0641</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>海南省省直辖县级行政单位毕办</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214031</td>
+  <td>黎椰冬</td>
+  <td>女</td>
+  <td>应用日语</td>
+  <td>46003419861209<span style='display:none'>0023</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>海南省省直辖县级行政单位毕办</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214032</td>
+  <td>钟娅琴</td>
+  <td>女</td>
+  <td>应用日语</td>
+  <td>36030219860724<span style='display:none'>5045</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>江西省萍乡市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214033</td>
+  <td>张蓉华</td>
+  <td>女</td>
+  <td>应用日语</td>
+  <td>42052519870104<span style='display:none'>0048</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>湖北省宜昌市教育局</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214034</td>
+  <td>程莉</td>
+  <td>女</td>
+  <td>应用日语</td>
+  <td>42011719851023<span style='display:none'>7567</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>武汉市人民政府大中专毕业生就业管理办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214035</td>
+  <td>黄瑜</td>
+  <td>女</td>
+  <td>应用日语</td>
+  <td>45212319840710<span style='display:none'>3282</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>广西南宁市人力资源和社会保障局</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214036</td>
+  <td>严齐</td>
+  <td>女</td>
+  <td>应用日语</td>
+  <td>42011219860503<span style='display:none'>2423</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>武汉市人民政府大中专毕业生就业管理办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214037</td>
+  <td>段家兴</td>
+  <td>男</td>
+  <td>应用日语</td>
+  <td>42010519860206<span style='display:none'>2033</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>武汉市人民政府大中专毕业生就业管理办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214038</td>
+  <td>吴仁艳</td>
+  <td>女</td>
+  <td>应用日语</td>
+  <td>46000419841005<span style='display:none'>0025</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>海南省大中专毕业生就业指导中心</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214039</td>
+  <td>戴文</td>
+  <td>男</td>
+  <td>应用日语</td>
+  <td>46000419840103<span style='display:none'>0014</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>海南省海口市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214040</td>
+  <td>黄鑫</td>
+  <td>女</td>
+  <td>应用日语</td>
+  <td>42068219870921<span style='display:none'>4041</span></td>
+  <td>回原籍</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省襄阳市大中专毕业生就业工作办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214041</td>
+  <td>刘莉</td>
+  <td>女</td>
+  <td>应用日语</td>
+  <td>45222919850520<span style='display:none'>008X</span></td>
+  <td>派遣</td>
+  <td>广西柳州市毕办</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214042</td>
+  <td>纪新和</td>
+  <td>男</td>
+  <td>应用日语</td>
+  <td>46000619830127<span style='display:none'>2334</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>海南省万宁市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2004214043</td>
+  <td>王春晓</td>
+  <td>女</td>
+  <td>应用日语</td>
+  <td>46020019851226<span style='display:none'>4943</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>海南省三亚市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>2005204047</td>
+  <td>杨小玲</td>
+  <td>女</td>
+  <td>外贸英语(经贸<span style='display:none'>英语)</span></td>
+  <td>50022319851011<span style='display:none'>4869</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>重庆市潼南县人力资源和社会保障局</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>20062021022</td>
+  <td>李曼</td>
+  <td>女</td>
+  <td>应用电子技术</td>
+  <td>32032419850420<span style='display:none'>4241</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>湖北省人力资源市场</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>20062021023</td>
+  <td>张景</td>
+  <td>女</td>
+  <td>应用电子技术</td>
+  <td>42112619841203<span style='display:none'>1749</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>湖北省人力资源市场</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>20062041031</td>
+  <td>郭秀荣</td>
+  <td>女</td>
+  <td>外贸英语(经贸<span style='display:none'>英语)</span></td>
+  <td>41292919810210<span style='display:none'>9426</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>河南省南阳市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>20062041032</td>
+  <td>蔡小宝</td>
+  <td>女</td>
+  <td>外贸英语(经贸<span style='display:none'>英语)</span></td>
+  <td>42112519830627<span style='display:none'>2745</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>湖北省黄冈市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>20062071029</td>
+  <td>汤家应</td>
+  <td>男</td>
+  <td>计算机软件</td>
+  <td>35042619850722<span style='display:none'>4516</span></td>
+  <td>回原籍</td>
+  <td>福建省公务员局</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>20062071030</td>
+  <td>杨凯风</td>
+  <td>男</td>
+  <td>计算机软件</td>
+  <td>33102219841115<span style='display:none'>1279</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>浙江省台州市人事局</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>20062081046</td>
+  <td>蔡宣淦</td>
+  <td>男</td>
+  <td>电子商务</td>
+  <td>35042619850120<span style='display:none'>2017</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>福建省三明市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>20062081047</td>
+  <td>陈旭平</td>
+  <td>男</td>
+  <td>电子商务</td>
+  <td>44512219840728<span style='display:none'>7434</span></td>
+  <td>派遣</td>
+  <td colspan=3 style='mso-ignore:colspan'>广东省高等学校毕业生就业指导中心</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>20062091045</td>
+  <td>周丹利</td>
+  <td>女</td>
+  <td>涉外会计</td>
+  <td>33102219850621<span style='display:none'>0024</span></td>
+  <td>派遣</td>
+  <td colspan=2 style='mso-ignore:colspan'>浙江省台州市毕办</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>20063241090</td>
+  <td>王春雷</td>
+  <td>男</td>
+  <td>计算机软件</td>
+  <td>14272319850218<span style='display:none'>2011</span></td>
+  <td>派遣</td>
+  <td>武汉市人事局</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>20063241091</td>
+  <td>凡波</td>
+  <td>男</td>
+  <td>计算机软件</td>
+  <td>42900119841013<span style='display:none'>7210</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>湖北省随州市大中专毕业生就业工作办公室</td>
+ </tr>
+ <tr height=19 style='height:14.25pt'>
+  <td height=19 style='height:14.25pt'>20063241092</td>
+  <td>吴晶晶</td>
+  <td>女</td>
+  <td>计算机软件</td>
+  <td>42010419860117<span style='display:none'>204X</span></td>
+  <td>派遣</td>
+  <td colspan=4 style='mso-ignore:colspan'>武汉市人民政府大中专毕业生就业管理办公室</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=120 style='width:90pt'></td>
+  <td width=120 style='width:90pt'></td>
+  <td width=120 style='width:90pt'></td>
+  <td width=120 style='width:90pt'></td>
+  <td width=120 style='width:90pt'></td>
+  <td width=120 style='width:90pt'></td>
+  <td width=120 style='width:90pt'></td>
+  <td width=75 style='width:56pt'></td>
+  <td width=75 style='width:56pt'></td>
+  <td width=75 style='width:56pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+</html>

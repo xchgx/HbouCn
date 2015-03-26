@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+		"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.xchgx.zsbwork.bean">
+	<class name="School" table="t_school" >
+		<id name="id" column="id">
+			<generator class="native" />
+		</id>
+		<property name="name" not-null="true" />
+		<property name="type" not-null="true" />
+		<property name="description" not-null="true" />
+		
+		<set name="departments" inverse="true" order-by="name">
+			<key column="schoolId"/>
+			<one-to-many class="Department"/>
+		</set>
+		<set name="teachers" inverse="true" order-by="name">
+			<key column="schoolId"/>
+			<one-to-many class="Teacher"/>
+		</set>
+		<set name="addresses" inverse="true" order-by="name">
+			<key column="schoolId"/>
+			<one-to-many class="Address"/>
+		</set>
+		<set name="works" inverse="true" order-by="id">
+			<key column="schoolId"/>
+			<one-to-many class="Work"/>
+		</set>
+<!-- 	private Integer id; -->
+<!-- 	private String name; -->
+<!-- 	private String type;//小学中学大学中职等类型 -->
+<!-- 	private Set<Department> departments;//学校有哪些部门（班级，教务处等) -->
+<!-- 	private Set<Teacher> teachers; -->
+<!-- 	private Set<Address> addresses; -->
+<!-- 	private Set<Work> works; -->
+<!-- 	private String description; -->
+	</class>
+</hibernate-mapping>

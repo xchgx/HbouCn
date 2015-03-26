@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+		"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.xchgx.domain">
+
+	<class name="Shortcut" table="t_shortcut">
+		<id name="id" column="id">
+			<generator class="native" />
+		</id>
+		<property name="icoid" />
+		<property name="name"  not-null="true"/>
+		<property name="ico" not-null="true"/>
+		<property name="url" not-null="true"/>
+		<property name="height" not-null="true"/>
+		<property name="width" not-null="true"/>
+		<property name="description"/>
+		<set name="permissions" table="PermissionShortcut" inverse="true" lazy="false"  order-by="permissionId" >
+			<key column="shortcutId"></key>
+			<many-to-many column="permissionId" class="Permission"  />
+		</set>
+	</class>
+</hibernate-mapping>

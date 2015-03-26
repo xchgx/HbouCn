@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+		"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.xchgx.domain">
+	<class name="Article" table="t_article" >
+		<id name="id" column="id">
+			<generator class="native" />
+		</id>
+		 <property name="title" not-null="true"/>
+		 <property name="type" />
+		 <property name="titleStyle" />
+		 <property name="display" />
+		 <property name="content" type="text" not-null="true"/>
+		 <property name="ip" />
+		 <property name="date" />
+		 <property name="description"/>
+		 <property name="releaseTime" type="timestamp"/>
+		 <many-to-one name="department" column="departmentId"  lazy="false" />
+		 <many-to-one name="author" column="authorId" lazy="false" class="com.xchgx.zsbwork.bean.Teacher"/>
+		 <many-to-one name="section" column="sectionId" lazy="false" class="Section" />
+	</class>
+</hibernate-mapping>

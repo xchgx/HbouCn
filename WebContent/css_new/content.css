@@ -1,0 +1,135 @@
+@CHARSET "UTF-8";
+/**
+ * 	内容栏css设置
+ */
+/**内容大层**/
+#content {
+    /*float:left;*/
+    text-align: center;
+    display: block;
+    height: 720px;
+    width: 100%;
+    /*background: #FAFAFA;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+/**内容 左中右 布局层 Start**/
+#content #content_left {
+    display: none;
+    /*position: absolute;*/
+    float: left;
+    text-align: center;
+    width: 100px;
+    height: 100%;
+    margin: 0px 0px 0px -100%;
+    padding: 0px;
+    left: 0px;
+    background: #0074C7;
+}
+#content #content_center {
+    position: relative;
+    /*position: absolute;*/
+    /*float: left;*/
+    text-align: center;
+    display: block;
+    width: 980px;
+    height: 100%;
+    margin: 0px auto;
+    padding: 0px;
+    /*background: #FFFFFF;*/
+}
+#content #content_right {
+    display: none;
+    /*position: absolute;*/
+    float: left;
+    text-align: center;
+    width: 100px;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    right: 0px;
+    background: #0073EA;
+}
+/**内容 左中右 布局层 End**/
+
+/**具体内容详细层 Start**/
+#content #content_center #content_center_article {
+    position: relative;
+    text-align: center;
+    display: block;
+    width: 980px;
+    height: 100%;
+    margin: 0px auto;
+    padding: 0px;
+    /*background: #FFFFFF;*/
+   
+    background-image: url('../img/index/footbackground.png');
+    background-repeat: repeat;
+}
+.contentblock {
+    text-align: left;
+    float: left;
+    width: 235px;
+    height: 235px;
+    /*background: #FFF9E5;*/
+    margin: 5px;
+    padding: 0px;
+}
+
+/*小标题*/
+.contentblock .contentblock_title {
+    float: left;
+    width: 235px;
+    height: 30px;
+    background: #DCE0E3;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+/*小标题顶部样式*/
+.contentblock .contentblock_title .contentblock_title_top {
+    float: left;
+    width: 100%;
+    height: 3px;
+    background: #FF8400;
+    margin: 0px;
+    padding: 0px;
+}
+/*小标题文本*/
+.contentblock .contentblock_title .contentblock_title_text {
+    float: left;
+    width: 100%;
+    height: 27px;
+    /*background: #FF84DD;*/
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+
+/*列表*/
+.contentblock .contentblock_list {
+    float: left;
+    width: 235px;
+    height: 205px;
+    background: #F1F5F8;
+    /*background-image: url('../img/index/footbackground.png');*/
+    /*background-repeat: repeat;*/
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-weight: normal;
+}
+/*单独一行，通常是图片*/
+.content_row {
+    float: left;
+    width: 970px;
+    height: 220px;
+    /*background: #FF3853;*/
+    background: url('../img/xiaoqing.png');
+    margin: 0px 5px;
+}
+/**具体内容详细层 End**/

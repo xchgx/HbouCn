@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+		"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.xchgx.domain">
+	<class name="DepartmentType" table="t_department_type" >
+		<id name="id" column="id">
+			<generator class="native" />
+		</id>
+		 <property name="name" not-null="true"/>
+		 <property name="description" not-null="true"/>
+		<set name="departments" inverse="true" cascade="save-update" order-by="name">
+			<key column="departmentTypeId"/>
+			<one-to-many class="com.xchgx.zsbwork.bean.Department"/>
+		</set>
+<!-- 	private String title; -->
+<!-- 	private String content; -->
+<!-- 	private User author; -->
+<!-- 	private String date; -->
+<!-- 	private String ip; -->
+<!-- 	private String description; -->
+<!-- 	private Category category; -->
+	</class>
+</hibernate-mapping>

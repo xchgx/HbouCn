@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+		"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.xchgx.zsbwork.bean">
+	<class name="Teacher" table="t_teacher">
+		<id name="id" column="id">
+			<generator class="native" />
+		</id> 
+		<property name="jgh" not-null="true" unique="true"></property>
+		<property name="name" not-null="true" />
+		<property name="sex" not-null="true" />
+		<property name="age" not-null="true" />
+		<property name="position" not-null="true" />
+		<property name="phone" not-null="true" />
+		<property name="description" not-null="true" />
+		<many-to-one name="employee" column="employeeId" lazy="false" cascade="save-update"/>
+		<many-to-one name="school" column="schoolId" lazy="false" cascade="save-update"/>
+		<set name="departments" table="TeacherDepartment" lazy="false" order-by="departmentId" cascade="save-update">
+			<key column="teacherId" />
+			<many-to-many column="departmentId" class="Department" />
+		</set>
+		<set name="articleDepartments" table="TeacherArticleDepartment" lazy="false" order-by="departmentId" cascade="save-update">
+			<key column="teacherId" />
+			<many-to-many column="departmentId" class="Department" />
+		</set>
+		<set name="managerDepartments" inverse="true" lazy="false" order-by="name" cascade="save-update">
+			<key column="managerId" />
+			<one-to-many class="Department" />
+		</set>
+		<set name="articles" inverse="true" lazy="false" order-by="id">
+			<key column="authorId"></key>
+			<one-to-many class="com.xchgx.domain.Article"/>
+		</set>
+		<set name="zsbStudent" table="r_zsbStudentTeacher" cascade="save-update">
+			<key column="teacherId"></key>
+			<many-to-many column="studentId" unique="true" class="Student"></many-to-many>
+		</set>
+		<one-to-one name="user" property-ref="teacher" class="com.xchgx.domain.User" lazy="false" cascade="save-update"></one-to-one>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+		"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.xchgx.zsbwork.bean">
+	<class name="Student" table="t_student" >
+		<id name="id" column="id">
+			<generator class="native" />
+		</id>
+		<property name="city" />
+		<property name="cengCi" />
+		<property name="wenLiKe" />
+		<property name="baoDao" />
+		<property name="kaoShengHao" />
+		<property name="no" />
+		<property name="name" />
+		<property name="sex" />
+		<property name="kaoShengTeZheng" />
+		<property name="touDangDanWei" />
+		<property name="waiYuYuZhong" />
+		<property name="touDangChengJi" />
+		<property name="yuSheJiZhunFen" />
+		<property name="touDangZhiYuan" />
+		<property name="zhuanYe1" />
+		<property name="zhuanYe2" />
+		<property name="zhuanYe3" />
+		<property name="zhuanYe4" />
+		<property name="zhuanYe5" />
+		<property name="zhuanYe6" />
+		<property name="tiaoJi" />
+		<property name="luQuZhuanYe" />
+		<property name="tuiDangYuanYin" />
+		<property name="tiJianShouXianBiaoZhi" />
+		<property name="tiJianJieLun" />
+		<property name="luQuFangShi" />
+		<property name="tuiDangYuanYinBeiZhu" />
+		<property name="yuSheZhuanYe" />
+		<property name="fuCongZhuanYeLeiBie" />
+		<property name="dingXiangTiaoJi" />
+		<property name="zhiYuanTeZheng" />
+		<property name="touDangDanBianHao" />
+		<property name="yuSheFuJiaFen" />
+		<property name="dengXiaoJiZhunFen" />
+		<property name="yuanXiaoDaoRuChengJi" />
+		<property name="ziGeFen" />
+		<property name="teZhengChengJi" />
+		<property name="zongFen" />
+		<property name="shouJianRen" />
+		<property name="zhengShenYiJian" />
+		<property name="kaoShengJiangLiHeChuFen" />
+		<property name="kaoShengTeChang" />
+		<property name="huiKaoKaoHao" />
+		<property name="lianXiDianHua" />
+		<property name="youZhengBianMa" />
+		<property name="jiaTingDiZhi" />
+		<property name="shenFenZhengHao" />
+		<property name="huiKaoDengJi" />
+		<property name="yingShiJuanZhong" />
+		<property name="waiYuTingLi" />
+		<property name="waiYuKouShi" />
+		<property name="kaoShiLeiXing" />
+		<property name="huKouSuoZaiDi" />
+		<property name="xiTongDanWei" />
+		<property name="baoMingDanWei" />
+		<property name="biYeLeiBie" />
+		<property name="kaoShengLeiBie" />
+		<property name="minZu" />
+		<property name="zhengZhiMianMao" />
+		<property name="zhongXueMingCheng" />
+		<property name="zhongXueDaiMa" />
+		<property name="zhunKaoZhengHao" />
+		<property name="chuShengRiQi" />
+		<property name="xuHao" />
+		<join table="r_zsbStudentTeacher" inverse="true" optional="true">
+			<key column="studentId" unique="true"></key>
+			<many-to-one name="teacher" column="teacherId" not-null="true" unique="true" class="Teacher"></many-to-one>
+		</join>
+
+	</class>
+</hibernate-mapping>

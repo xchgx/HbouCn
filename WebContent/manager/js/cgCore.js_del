@@ -1,0 +1,351 @@
+
+$(function(){
+	var shutdownDialog;
+	$(window).bind("load", function() {
+		var footerHeight = 0,
+		footerTop = 0,
+		$footer = $("#taskBar");
+		positionFooter();
+		//定义positionFooter function
+		function positionFooter() {
+			//取到div#footer高度
+			footerHeight = $footer.height();
+			$("#desktopPane").css({height:($(window).height()-footerHeight)+"px"});
+			//div#footer离屏幕顶部的距离
+			footerTop = ($(window).scrollTop()+$(window).height()-footerHeight)+"px";
+			/* DEBUGGING STUFF
+			console.log("Document height: ", $(document.body).height());
+			console.log("Window height: ", $(window).height());
+			console.log("Window scroll: ", $(window).scrollTop());
+			console.log("Footer height: ", footerHeight);
+			console.log("Footer top: ", footerTop);
+			console.log("-----------")
+			*/
+			//如果页面内容高度小于屏幕高度，div#footer将绝对定位到屏幕底部，否则div#footer保留它的正常静态定位
+			if ( ($(document.body).height()+footerHeight) < $(window).height()) {
+				$footer.css({
+					position: "absolute",
+					//"z-index": 10
+				}).stop().animate({
+					top: footerTop
+				});
+			} else {
+				$footer.css({
+					position: "static"
+				});
+			}
+		}
+		$(window).scroll(positionFooter).resize(positionFooter);
+	});
+	//$.data(document.body, "newWindow", {win0:open_new_window("win0"),win1:open_new_window("win1"),shutdown:open_new_window("shutdown")});
+
+
+	//图标鼠标经过效果
+	$(".desktop_icon").hover(function(){
+		$(this).addClass("desktop_icon_over");
+	},
+	function(){
+		$(this).removeClass("desktop_icon_over");
+	});
+
+	//开始菜单鼠标经过效果
+	$("#taskBar #taskBar_startBtn").hover(function(){
+		//$(this).removeClass("taskBar_startBtn_Over");
+		//$(this).addClass("taskBar_startBtn_Hove");
+		$(this).css({'background-image':'url(images/taskBar/start2.png)'});
+	},
+	function(){
+		//$(this).addClass("taskBar_startBtn_Over");
+		//$(this).removeClass("taskBar_startBtn_Hove").addClass("taskBar_startBtn_Over");
+		$(this).css({"background-image":"url(images/taskBar/start.png)"});
+	});
+
+	//双击图标打开窗口
+
+	$("#win0").dialog({
+		autoOpen: false,
+		height:400,
+		width: 500,
+		title: '\u6211\u7684\u7535\u8111',//我的电脑
+		close: function(){
+			$(this).dialog("close");
+		},
+		open:function(evernt,ui){
+			//$(".ui-dialog-titlebar-close").before('<a href="#" class="ui-dialog-titlebar-min ui-corner-all" role="button"><span class="ui-icon ui-icon-minusthick">minusthick</span></a><a href="#" class="ui-dialog-titlebar-max ui-corner-all" role="button"><span class="ui-icon ui-icon-extlink">extlink</span></a>');
+		}
+	});
+	$("#win1").dialog({
+		autoOpen: false,
+		height:400,
+		width: 500,
+		title: '\u56de\u6536\u7ad9',//回收站
+		close: function(){
+			$(this).dialog("close");
+		},
+		open:function(evernt,ui){
+			//$(".ui-dialog-titlebar-close").before('<a href="#" class="ui-dialog-titlebar-min ui-corner-all" role="button"><span class="ui-icon ui-icon-minusthick">minusthick</span></a><a href="#" class="ui-dialog-titlebar-max ui-corner-all" role="button"><span class="ui-icon ui-icon-extlink">extlink</span></a>');
+		}
+	});
+	$("#shutdown").dialog(getdialogOptions());
+	$("#systemAttrDialog").dialog(getdialogOptions());
+	$("#systemConfig").dialog(getdialogOptions());
+
+	//我的电脑单击事件
+	$("#icon0").click(function(){
+		//$("#win0").dialog("open").dialogExtend(getdialogExtendOptions());
+			$("#win0").html("<iframe width='100%' height='100%' frameborder='0' scrolling='auto' width='100%' src='http://www.baidu.com'></iframe>");
+			$("#win0").dialog("open").dialogExtend(getdialogExtendOptions());
+			$("#win0").dialogExtend("restore");
+				
+	});
+	//回收站单击事件
+	$("#icon1").click(function(){
+//		$("#win1").html("<iframe width='100%' height='100%' frameborder='0' scrolling='auto' width='100%' src='http://www.sogou.com'></iframe>");
+//		$("#win1").dialog("open").dialogExtend(getdialogExtendOptions());
+//		$("#win1").dialogExtend("restore");
+		$("#win0").hide();
+	});
+	/*鼠标右键菜单*/
+	//我的电脑右键菜单
+	$.contextMenu({
+		selector: '#icon0',
+		delay: 2000,
+		autoHide: true,
+		items: {
+			"open":{name:"\u6253\u5f00"/*打开*/, icon:"edit",callback: function(key,opt){
+				$("#win0").html("<iframe width='100%' height='100%' frameborder='0' scrolling='auto' width='100%' src='http://www.sogou.com'></iframe>");
+				$("#win0").dialog("open").dialogExtend(getdialogExtendOptions());
+				$("#win0").dialogExtend("restore");
+			}},
+			"sep1":"----------------",
+			"attr":{name:"\u5c5e\u6027"/*属性*/,icon:"cut",callback: function(key,opt){
+				$("#systemAttrDialog").dialog("open").dialogExtend(getdialogExtendOptions());
+			}}
+		}
+	});
+	//回收站右键菜单
+	$.contextMenu({
+		selector: '#icon1',
+		delay: 2000,
+		autoHide: true,
+		items: {
+			"open":{name:"\u6253\u5f00"/*打开*/, icon:"edit",callback: function(key,opt){
+				$("#win1").html("<iframe width='100%' height='100%' frameborder='0' scrolling='auto' width='100%' src='http://www.sogou.com'></iframe>");
+				$("#win1").dialog("open").dialogExtend(getdialogExtendOptions());
+				$("#win1").dialogExtend("restore");
+			}},
+			"sep1":"----------------",
+			"attr":{name:"\u5c5e\u6027"/*属性*/,icon:"cut",callback: function(key,opt){
+				alert("\u5c5e\u6027");
+			}}
+		}
+	});
+	//任务栏右键菜单
+	$.contextMenu({
+		selector: '#taskBar',
+		delay: 2000,
+		autoHide: true,
+		items: {
+			"open":{name:"\u6253\u5f00TaskBar"/*打开*/, icon:"edit",callback: function(key,opt){
+				$("#win1").html("<iframe width='100%' height='100%' frameborder='0' scrolling='auto' width='100%' src='http://www.sogou.com'></iframe>");
+				$("#win1").dialog("open").dialogExtend(getdialogExtendOptions());
+				$("#win1").dialogExtend("restore");
+			}},
+			"sep1":"----------------",
+			"attr":{name:"\u5c5e\u6027TaskBar"/*属性*/,icon:"cut",callback: function(key,opt){
+				alert("\u5c5e\u6027");
+			}}
+		}
+	});
+	//桌面菜单
+	$.contextMenu({
+		selector: '#desktopPane',
+		delay: 2000,
+		autoHide: true,
+		callback: function(key, options){
+			var m="clicked:"+key;
+			alert(m);
+		},
+		items: {
+			"open":{name:"\u6253\u5f00Desktop", icon:"edit"},//打开
+			"sep1":"----------------",
+			"attr":{name:"\u5c5e\u6027Desktop",icon:"cut"}//属性
+		}
+	});
+	/*开始菜单*/
+	$('#taskBar_startBtn').on('click',function(e){
+		//e.preventDefault();
+		$('.taskBar_startBtn_Over').contextMenu({x: 1 , y: parseInt($(window).height())-31 });
+	});
+	$.contextMenu.types.label = function(item,opt,root){
+		$('<div style="background:#DDD"><img src="images/taskBar/page_white_admin.png"><font color=black >Administrator</font><br/>Success Login! Welcome!</div>').appendTo(this).on('click',function(){
+			//alert($(this).text());
+		});
+
+	};
+
+	$.contextMenu({
+		selector: '.taskBar_startBtn_Over',
+		trigger: 'none',
+		delay: 2000,
+		autoHide: true,
+		items: {
+			"title":{type: "label", customName: "cgLabel", icon:"admin", disabled:function(key,opt){
+				return true;
+			}},
+			"systemConfig":{name:"\u7cfb\u7edf\u8bbe\u7f6e"/*系统设置*/, icon:"edit", callback: function(key,opt){
+				$("#systemConfig").dialog("open").dialogExtend(getdialogExtendOptions());
+				$("#systemConfig").dialogExtend("restore");
+			}},
+			"sep1":"----------------",
+			"shutdown":{name:"\u5173\u673a"/*关机*/,icon:"cut",callback: function(key,opt){
+				$("#shutdown").dialog("open").dialogExtend(getdialogExtendOptions());
+				$("#shutdown").dialogExtend("restore");
+//				  var command = $(this).text();
+//					var dialog = $(".ui-dialog:last").find(".ui-dialog-content");
+//					if ( $(dialog).length ) {
+//						if ( command == 'state' ) {
+//							alert( $(dialog).dialogExtend(command) );
+//						} else {
+//							$(dialog).dialogExtend(command);
+//						}
+//					}
+			}}
+		},
+	});
+	$('.startBtn_title').attr('startBtn_title_data_menutitle',"Administrator \u5df2\u7ecf\u767b\u5f55 Please click me to Logout! thanks");
+
+	/*
+	// preview icon
+	$("#config-icon select")
+	.change(function(){
+	var icon = "<span class='ui-icon "+$(this).val()+"'></span>";
+	$(this).parents(".wrapper").find("ins").html(icon);
+	})
+	.trigger("change");
+	*/
+
+	// open dialog
+
+	/*
+	//click to reopen dialog
+	$('#reopen-dialog').click(function(){
+	last.dialog('open');
+	});
+	// click to invoke method
+	$("#config-method button").click(function(){
+	var command = $(this).text();
+	var dialog = $(".ui-dialog:last").find(".ui-dialog-content");
+	if ( $(dialog).length ) {
+	if ( command == 'state' ) {
+	alert( $(dialog).dialogExtend(command) );
+	} else {
+	$(dialog).dialogExtend(command);
+	}
+	}
+	});
+	*/
+
+});
+
+function getdialogOptions(){
+	// click to open dialog
+	//dialog options
+	var dialogOptions = {
+		"title" : "dialog@" + new Date().getTime(),
+		"autoOpen": false,
+		"width" : 400,
+		"height" : 300,
+		"modal" : false,
+		"resizable" : true,
+		"draggable" : true,
+		"close" : function(){
+			$(this).dialog("close");
+		}
+	};
+	return dialogOptions;
+}
+function getdialogExtendOptions(){
+	//		if ( $("#button-cancel").is(":checked") ) {
+	//			dialogOptions.buttons = { "Cancel" : function(){ $(this).dialog("close"); } };
+	//		}
+	// dialog-extend options
+	var dialogExtendOptions = {
+		"closable" : true,
+		"maximizable" : true,
+		"minimizable" : true,
+		"minimizeLocation" : "right",
+		"collapsable" : true,
+		"dblclick" : "maximize",
+		"titlebar" : "",
+		"close":"ui-icon-closethick",
+		"maximize":"ui-icon-extlink",
+		"minimize":"ui-icon-minus",
+		"restore":"ui-icon-newwin",
+		"load":function(evt, a,b,c) {
+			$(evt.target).prepend(evt.type+"@"+evt.timeStamp+"<br />");
+		},
+		"beforeCollapse":function(evt, a,b,c) {
+			$(evt.target).prepend(evt.type+"@"+evt.timeStamp+"<br />");
+		},
+		"beforeMaximize":function(evt, a,b,c) {
+			$(evt.target).prepend(evt.type+"@"+evt.timeStamp+"<br />");
+		},
+		"beforeMinimize":function(evt, a,b,c) {
+			$(evt.target).prepend(evt.type+"@"+evt.timeStamp+"<br />");
+		},
+		"beforeRestore":function(evt, a,b,c) {
+			$(evt.target).prepend(evt.type+"@"+evt.timeStamp+"<br />");
+		},
+		"collapse":function(evt, a,b,c) {
+			$(evt.target).prepend(evt.type+"@"+evt.timeStamp+"<br />");
+		},
+		"maximize":function(evt, a,b,c) {
+			$(evt.target).prepend(evt.type+"@"+evt.timeStamp+"<br />");
+		},
+		"minimize":function(evt, a,b,c) {
+			$(evt.target).prepend(evt.type+"@"+evt.timeStamp+"<br />");
+		},
+		"restore":function(evt, a,b,c) {
+			$(evt.target).prepend(evt.type+"@"+evt.timeStamp+"<br />");
+		}
+	};
+	/*
+	dialogExtendOptions.icons = dialogExtendOptions.icons || {};
+	dialogExtendOptions.icons["close"] = "ui-icon-closethick";
+	dialogExtendOptions.icons["maximize"] = "ui-icon-extlink";
+	dialogExtendOptions.icons["minimize"] = "ui-icon-minus";
+	dialogExtendOptions.icons["restore"] = "ui-icon-newwin";
+
+	dialogExtendOptions["load"] = function(evt, a,b,c) {
+	$(evt.target).prepend(evt.type+"@"+evt.timeStamp+"<br />");
+	};
+	dialogExtendOptions["beforeCollapse"] = function(evt, a,b,c) {
+	$(evt.target).prepend(evt.type+"@"+evt.timeStamp+"<br />");
+	};
+	dialogExtendOptions["beforeMaximize"] = function(evt, a,b,c) {
+	$(evt.target).prepend(evt.type+"@"+evt.timeStamp+"<br />");
+	};
+	dialogExtendOptions["beforeMinimize"] = function(evt, a,b,c) {
+	$(evt.target).prepend(evt.type+"@"+evt.timeStamp+"<br />");
+	};
+	dialogExtendOptions["beforeRestore"] = function(evt, a,b,c) {
+	$(evt.target).prepend(evt.type+"@"+evt.timeStamp+"<br />");
+	};
+	dialogExtendOptions["collapse"] = function(evt, a,b,c) {
+	$(evt.target).prepend(evt.type+"@"+evt.timeStamp+"<br />");
+	};
+	dialogExtendOptions["maximize"] = function(evt, a,b,c) {
+	$(evt.target).prepend(evt.type+"@"+evt.timeStamp+"<br />");
+	};
+	dialogExtendOptions["minimize"] = function(evt, a,b,c) {
+	$(evt.target).prepend(evt.type+"@"+evt.timeStamp+"<br />");
+	};
+	dialogExtendOptions["restore"] = function(evt, a,b,c) {
+	$(evt.target).prepend(evt.type+"@"+evt.timeStamp+"<br />");
+	};
+	*/
+	return dialogExtendOptions;
+	//		last = $("<div />").dialog(dialogOptions).dialogExtend(dialogExtendOptions);
+	//		return last;
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+		"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.xchgx.domain">
+	<class name="Navigation" table="t_navigation">
+		<id name="id" column="id">
+			<generator class="native" />
+		</id>
+		<property name="name" not-null="true" />
+		<property name="level" not-null="true" />
+		<property name="url" />
+		<property name="tip" />
+		<property name="ico" />
+		<property name="style" />
+		<property name="sort" not-null="true" />
+		<property name="targetBlank" />
+		<property name="display" />
+		<property name="boss" />
+		<property name="description" />
+		
+		<many-to-one name="fatherNavigation" column="fatherNavigationId" lazy="false"
+			class="Navigation"></many-to-one>
+		<set name="childNavigations"  lazy="false" inverse="true" order-by="sort">
+			<key column="fatherNavigationId"></key>
+			<one-to-many class="Navigation" />
+		</set>
+		
+		<set name="departments" table="DepartmentNavigation" inverse="true" >
+			<key column="navigationId"></key>
+			<many-to-many column="departmentId" class="com.xchgx.zsbwork.bean.Department"></many-to-many>
+		</set>
+		<set name="sections" table="SectionNavigation" inverse="true"  >
+			<key column="navigationId"></key>
+			<many-to-many column="sectionId" class="Section"></many-to-many>
+		</set>
+		
+	</class>
+</hibernate-mapping>

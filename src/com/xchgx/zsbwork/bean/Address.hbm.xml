@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+		"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.xchgx.zsbwork.bean">
+	<class name="Address" table="t_address" >
+		<id name="id" column="id">
+			<generator class="native" />
+		</id>
+		 <property name="name" not-null="true"/>
+		 <property name="mapUrl" not-null="true"/>
+		 <property name="city" not-null="true"/>
+		 <property name="region" not-null="true"/>
+		 <property name="county" not-null="true"/>
+		 <property name="street" not-null="true"/>
+		 <property name="description" not-null="true"/>
+		 <many-to-one name="school" column="schoolId" lazy="false"/>
+
+
+<!-- 	private Integer id; -->
+<!-- 	private String name; -->
+<!-- 	private String mapUrl; -->
+<!-- 	private String city;//市 -->
+<!-- 	private String region;//区 -->
+<!-- 	private String county;//县 -->
+<!-- 	private String street;//街道 -->
+<!-- 	private School school; -->
+<!-- 	private String description; -->
+	</class>
+</hibernate-mapping>

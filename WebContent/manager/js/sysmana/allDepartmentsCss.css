@@ -1,0 +1,12 @@
+@CHARSET "UTF-8";
+.allDepartmentListTagATip{
+	max-height: 200px;
+	max-width: 200px;
+	overflow: auto;
+	display: none;
+	background-color:#DFD8D8;
+	border-color: #C0DE98;
+	border-width: 1px;
+	font-size: 22px;
+	font-family:sans-serif; 
+}

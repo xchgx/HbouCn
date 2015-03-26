@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+		"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.xchgx.domain">
+	<class name="User" table="t_user">
+		<id name="id" column="id">
+			<generator class="native" />
+		</id>
+		<property name="name" column="name" unique="true" not-null="true" />
+		<property name="xm" not-null="true" />
+		<property name="password" not-null="true" />
+		<property name="locked" not-null="true">
+			<column name="locked" default="0"></column>
+		</property>
+		<property name="credit">
+			<column name="credit" default="10"></column>
+		</property>
+		<many-to-one name="permission" column="permissionId"
+			class="Permission" lazy="false" cascade="save-update"></many-to-one>
+		<many-to-one name="teacher" column="teacherId" unique="true" cascade="save-update" lazy="false"></many-to-one>
+	</class>
+</hibernate-mapping>

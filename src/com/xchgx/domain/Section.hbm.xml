@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+		"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.xchgx.domain">
+	<class name="Section" table="t_section">
+		<id name="id" column="id">
+			<generator class="native" />
+		</id>
+		<property name="name" not-null="true" />
+		<property name="description" not-null="true" />
+		<many-to-one name="department" column="departmentId" lazy="false"></many-to-one>
+		<set name="articles" inverse="true" order-by="id desc" lazy="false">
+			<key column="sectionId"></key>
+			<one-to-many class="Article" />
+		</set>
+		
+		<many-to-one name="fatherSection" column="fatherSectionId" lazy="false" class="Section"></many-to-one>
+		<set name="childSections" cascade="save-update" inverse="true" order-by="name">
+			<key column="fatherSectionId"></key>
+			<one-to-many class="Section"/>
+		</set>
+		
+		
+		<set name="navigations" table="SectionNavigation" inverse="false"  cascade="all">
+			<key column="sectionId"></key>
+			<many-to-many column="navigationId" class="Navigation"></many-to-many>
+		</set>
+		
+	</class>
+</hibernate-mapping>

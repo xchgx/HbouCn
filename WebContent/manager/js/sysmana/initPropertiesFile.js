@@ -1,0 +1,6 @@
+/**
+ * initPropertiesFile.js
+ */
+$(function() {
+	
+});
